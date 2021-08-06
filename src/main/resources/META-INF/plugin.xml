@@ -1,0 +1,64 @@
+<idea-plugin>
+    <name>Nocalhost</name>
+    <vendor url="https://nocalhost.dev/">Nocalhost</vendor>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.plugins.terminal</depends>
+    <depends optional="true" config-file="java-only.xml">com.intellij.java</depends>
+    <depends optional="true" config-file="php-only.xml">com.jetbrains.php</depends>
+    <depends optional="true" config-file="go-only.xml">org.jetbrains.plugins.go</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+
+        <applicationService
+                serviceImplementation="dev.nocalhost.plugin.intellij.commands.GitCommand"/>
+        <applicationService
+                serviceImplementation="dev.nocalhost.plugin.intellij.commands.NhctlCommand"/>
+        <applicationService serviceImplementation="dev.nocalhost.plugin.intellij.api.NocalhostApi"/>
+        <applicationService
+                serviceImplementation="dev.nocalhost.plugin.intellij.settings.NocalhostSettings"/>
+
+        <projectService serviceImplementation="dev.nocalhost.plugin.intellij.commands.OutputCapturedGitCommand"/>
+        <projectService serviceImplementation="dev.nocalhost.plugin.intellij.commands.OutputCapturedNhctlCommand" />
+        <projectService serviceImplementation="dev.nocalhost.plugin.intellij.exception.NocalhostNotifier"/>
+        <projectService serviceImplementation="dev.nocalhost.plugin.intellij.settings.NocalhostProjectSettings"/>
+
+        <toolWindow id="Starship" anchor="right" icon="NocalhostIcons.Logo"
+                    factoryClass="dev.nocalhost.plugin.intellij.ui.NocalhostWindowFactory"/>
+        <toolWindow id="Starship Console" anchor="bottom" icon="NocalhostIcons.Logo"
+                    factoryClass="dev.nocalhost.plugin.intellij.ui.NocalhostConsoleWindowFactory"
+                    canCloseContents="true"/>
+
+        <notificationGroup id="Nocalhost.Notification" displayType="BALLOON" toolWindowId="Nocalhost"/>
+        <notificationGroup id="Nocalhost.Notification.Error" displayType="STICKY_BALLOON" toolWindowId="Nocalhost"/>
+
+        <postStartupActivity
+                implementation="dev.nocalhost.plugin.intellij.startup.NocalhostStartupActivity"/>
+        <statusBarWidgetFactory
+                implementation="dev.nocalhost.plugin.intellij.ui.SyncStatusWidgetFactory"
+                order="first"/>
+        <errorHandler
+                implementation="dev.nocalhost.plugin.intellij.exception.report.NocalhostErrorReportSubmitter"/>
+
+        <programRunner implementation="dev.nocalhost.plugin.intellij.configuration.NocalhostRunner" order="first"/>
+
+        <applicationInitializedListener implementation="dev.nocalhost.plugin.intellij.startup.DevSpaceTreeAutoRefreshListener"/>
+        <applicationInitializedListener implementation="dev.nocalhost.plugin.intellij.startup.NocalhostTokenRefreshListener"/>
+
+    </extensions>
+
+    <actions>
+        <group id="NocalhostEditActions">
+            <action id="NocalhostEditCut" class="com.intellij.openapi.editor.actions.CutAction"
+                    use-shortcut-of="$Cut" icon="AllIcons.Actions.MenuCut" text="Cut"/>
+            <action id="NocalhostEditCopy" class="com.intellij.openapi.editor.actions.CopyAction"
+                    use-shortcut-of="$Copy" icon="AllIcons.Actions.Copy" text="Copy"/>
+            <action id="NocalhostEditPaste" class="com.intellij.openapi.editor.actions.PasteAction"
+                    use-shortcut-of="$Paste" icon="AllIcons.Actions.MenuPaste" text="Paste"/>
+        </group>
+    </actions>
+
+</idea-plugin>

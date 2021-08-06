@@ -1,0 +1,865 @@
+2021-08-05 19:49:19,140 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-08-05 19:49:19,179 [     39]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-212.4746.92, 27 Jul 2021 15:08) 
+2021-08-05 19:49:19,180 [     40]   INFO -        #com.intellij.idea.Main - OS: Linux (5.11.0-25-generic, amd64) 
+2021-08-05 19:49:19,187 [     47]   INFO -        #com.intellij.idea.Main - JRE: 11.0.11+9-b1504.13 (JetBrains s.r.o.) 
+2021-08-05 19:49:19,187 [     47]   INFO -        #com.intellij.idea.Main - JVM: 11.0.11+9-b1504.13 (OpenJDK 64-Bit Server VM) 
+2021-08-05 19:49:19,188 [     48]   INFO -        #com.intellij.idea.Main - JVM Args: -Didea.auto.reload.plugins=true -Didea.classpath.index.enabled=false -Didea.config.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/config -Didea.is.internal=true -Didea.platform.prefix=Idea -Didea.plugins.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins -Didea.system.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system -Dsun.awt.disablegrab=true -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -ea 
+2021-08-05 19:49:19,188 [     48]   INFO -        #com.intellij.idea.Main - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib 
+2021-08-05 19:49:19,188 [     48]   INFO -        #com.intellij.idea.Main - boot library path: /home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr_jcef-11_0_11-linux-x64-b1504.13/jbr/lib 
+2021-08-05 19:49:19,233 [     93]   INFO -        #com.intellij.idea.Main - locale=zh_CN JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/config
+  idea.system.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system
+  idea.plugins.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins
+  idea.log.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/log 
+2021-08-05 19:49:19,242 [    102]   INFO -        #com.intellij.idea.Main - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@4528f65a[Running, parallelism = 11, size = 8, active = 4, running = 4, steals = 3, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@e2514f2 
+2021-08-05 19:49:19,263 [    123]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 21 ms 
+2021-08-05 19:49:19,314 [    174]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=PHP, id=com.jetbrains.php, descriptorPath=plugin.xml, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/php, version=212.4746.92, package=null) misses optional descriptor php-shared-indexes.xml 
+2021-08-05 19:49:19,361 [    221]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Groovy, version=212.4746.92, package=org.jetbrains.plugins.groovy) misses optional descriptor duplicates-groovy.xml 
+2021-08-05 19:49:19,362 [    222]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Groovy, version=212.4746.92, package=org.jetbrains.plugins.groovy) misses optional descriptor duplicates-detection-groovy.xml 
+2021-08-05 19:49:19,583 [    443]   WARN - llij.ide.plugins.PluginManager - Problems found loading plugins:
+  The PHP (id=com.jetbrains.php, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/php, version=212.4746.92) plugin Plugin 'PHP' requires plugin 'com.intellij.modules.php-capable' to be installed
+  The Go (id=org.jetbrains.plugins.go, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/go, version=212.4746.92) plugin Plugin 'Go' requires plugin 'com.intellij.modules.go-capable' to be installed 
+2021-08-05 19:49:19,594 [    454]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE (212.4746.92), Configuration Script (212.4746.92), Dependency Management Api for External Build Tools (212.4746.92), JetBrains maven model api classes (212.4746.92), JetBrains Repository Search (212.4746.92), WSL File System Support (212.4746.92), Perforce Helix Core (212.4746.92), Subversion (212.4746.92), XPathView + XSLT (212.4746.92), XSLT Debugger (212.4746.92), Smali Support (212.4746.92), Machine Learning Code Completion (212.4746.92), Copyright (212.4746.92), Images (212.4746.92), macOS Light Theme (212.4746.92), Windows 10 Light Theme (212.4746.92), JetBrains Marketplace Licensing Support (212.4746.92), Properties (212.4746.92), Gradle (212.4746.92), Mercurial (212.4746.92), WebP Support (212.4746.92), EditorConfig (212.4746.92), Emoji Picker (212.4746.92), Terminal (212.4746.92), Git (212.4746.92), ChangeReminder (212.4746.92), Shell Script (212.4746.92), TextMate Bundles (212.4746.92), YAML (212.4746.92), Settings Repository (212.4746.92), IDE Features Trainer (212.4746.92), IDE Features Trainer: Git Lessons (212.4746.92), Java (212.4746.92), Ant (212.4746.92), Bytecode Viewer (212.4746.92), JUnit (212.4746.92), Lombok (212.4746.92), Java Internationalization (212.4746.92), UI Designer (212.4746.92), Java IDE Customization (212.4746.92), Java Stream Debugger (212.4746.92), Eclipse Interoperability (212.4746.92), Java Bytecode Decompiler (212.4746.92), JavaFX (212.4746.92), Task Management (212.4746.92), Code With Me (212.4746.92), Shared Indexes (212.4746.92), IntelliLang (212.4746.92), Groovy (212.4746.92), Maven (212.4746.92), TestNG (212.4746.92), Code Coverage for Java (212.4746.92), Gradle-Java (212.4746.92), Gradle-Maven (212.4746.92), Plugin DevKit (212.4746.92), Markdown (212.4746.92), GitHub (212.4746.92), Grazie (212.4746.92), Kotlin (212-1.5.10-release-IJ4746.92), Space (212.4746.92), Package Search (212.4746.92), Gradle DSL API (212.4746.92), Android (10.4.2.212.4746.92), Gradle Dependency Updater Implementation (212.4746.92) 
+2021-08-05 19:49:19,594 [    454]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Nocalhost (1.0.0-212) 
+2021-08-05 19:49:19,871 [    731]   INFO -        #com.intellij.idea.Main - WM detected: GNOME Shell 
+2021-08-05 19:49:20,460 [   1320]   WARN - j.internal.DebugAttachDetector - Unable to start DebugAttachDetector, please add `--add-exports java.base/jdk.internal.vm=ALL-UNNAMED` to VM options 
+2021-08-05 19:49:20,460 [   1320]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2021-08-05 19:49:20,552 [   1412]   INFO - intellij.diagnostic.JitWatcher - JIT compilation state checking enabled 
+2021-08-05 19:49:20,578 [   1438]   INFO - ication.options.PathMacrosImpl - Loaded path macros: {MAVEN_REPOSITORY=/home/hxz/.m2/repository, KOTLIN_BUNDLED=/home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Kotlin/kotlinc} 
+2021-08-05 19:49:20,589 [   1449]   INFO - intellij.util.io.FilePageCache - lower=100; upper=492; buffer=10; max=492 
+2021-08-05 19:49:20,608 [   1468]   INFO - rsistent.PersistentFSConnector - Marking VFS as corrupted: '/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/caches/names.dat' does not exist 
+2021-08-05 19:49:20,628 [   1488]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2021-08-05 19:49:20,639 [   1499]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2021-08-05 19:49:20,639 [   1499]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2021-08-05 19:49:20,742 [   1602]   INFO - ntellij.idea.ApplicationLoader - Input method disabler: canDisableInputMethod spent 8 ms, found keyboard layouts: [(libpinyin, ibus), (cn, xkb), ], result==false 
+2021-08-05 19:49:20,788 [   1648]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2021-08-05 19:49:20,789 [   1649]   INFO - penapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, editor.reader.mode, new.large.text.file.viewer, wsl.fsd.content.loader, terminal.shell.command.handling 
+2021-08-05 19:49:20,965 [   1825]   INFO - il.indexing.FileBasedIndexImpl - Indexes are corrupted and will be rebuilt (reason = ) 
+2021-08-05 19:49:20,970 [   1830]   INFO - impl.SharedIndexInfrastructure - Shared index version updated from -1 to 7 
+2021-08-05 19:49:20,974 [   1834]   INFO - impl.SharedIndexInfrastructure - Shared index persistent data has been cleared 
+2021-08-05 19:49:20,990 [   1850]   INFO - impl.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty 
+2021-08-05 19:49:20,991 [   1851]   INFO - stubs.SerializationManagerImpl - Name storage is repaired 
+2021-08-05 19:49:20,999 [   1859]   INFO - impl.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty 
+2021-08-05 19:49:20,999 [   1859]   INFO - impl.SharedIndexInfrastructure - Shared index persistent data has been cleared 
+2021-08-05 19:49:21,033 [   1893]   WARN - l.NotificationGroupManagerImpl - Notification group CodeWithMe is already registered (group=com.intellij.notification.NotificationGroup@25fd6bdc). Plugin descriptor: PluginDescriptor(name=Code With Me, id=com.jetbrains.codeWithMe, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/cwm-plugin, version=212.4746.92, package=null) 
+2021-08-05 19:49:21,120 [   1980]   INFO - penapi.wm.impl.GlobalMenuLinux - Start glib main loop in thread: GlobalMenuLinux loop 
+2021-08-05 19:49:21,122 [   1982]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2021-08-05 19:49:21,334 [   2194]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/bin/linux/fsnotifier 
+2021-08-05 19:49:21,342 [   2202]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2021-08-05 19:49:21,747 [   2607]   INFO - il.indexing.FileBasedIndexImpl - Indexes to be rebuilt after corruption:FilenameIndex(v = 3),FrameworkDetectionIndex(v = 65536),TodoIndex(v = 4107),IdIndex(v = 4113),filetypes(v = 258),Stubs(v = 46),Trigram.Index(v = 4099),fileIncludes(v = 6),DomFileIndex(v = 0),RelaxSymbolIndex(v = 0),XmlTagNames(v = 1),XmlNamespaces(v = 8),html5.custom.attributes.index(v = 1),SchemaTypeInheritance(v = 2),json.file.root.values(v = 5),XsltSymbolIndex(v = 0),xmlProperties(v = 2),editorconfig.index.name(v = 5),yaml.keys.name(v = 1),bytecodeAnalysis(v = 4107),java.auto.module.name(v = 5),java.source.module.name(v = 3),java.null.method.argument(v = 4097),java.fun.expression(v = 4102),java.binary.plus.expression(v = 4100),ant-imports(v = 5),LombokConfigIndex(v = 11),com.intellij.uiDesigner.FormClassIndex(v = 0),JavaFxControllerClassIndex(v = 1),javafx.id.name(v = 3),javafx.custom.component(v = 2),groovy.trait.fields(v = 5),groovy.trait.methods(v = 32),IdeaPluginRegistrationIndex(v = 3),PluginIdModuleIndex(v = 2),PluginIdDependenciesIndex(v = 5),devkit.ExtensionPointIndex(v = 0),devkit.ExtensionPointClassIndex(v = 1),org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex(v = 5),org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex(v = 3),org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex(v = 3),org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex(v = 4),org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex(v = 5),org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex(v = 2),org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex(v = 4),com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME(v = 10),BindingXmlIndex(v = 8),MlModelFileIndex(v = 6),NavXmlIndex(v = 8) 
+2021-08-05 19:49:21,749 [   2609]   INFO - leBasedIndexDataInitialization - Index data initialization done: 1043 ms. Initialized indexes: [FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, xmlProperties, editorconfig.index.name, yaml.keys.name, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, ant-imports, LombokConfigIndex, com.intellij.uiDesigner.FormClassIndex, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, groovy.trait.fields, groovy.trait.methods, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME, BindingXmlIndex, MlModelFileIndex, NavXmlIndex]. 
+2021-08-05 19:49:21,802 [   2662]   INFO - tellij.psi.stubs.StubIndexImpl - Following stub indices will be built:dom.namespaceKey(v = 1),dom.elementClass(v = 0),properties.index(v = 2),gr.class.fqn(v = 1),gr.script.fqn(v = 2),gr.field.name(v = 2),gr.method.name(v = 2),gr.annot.method.name(v = 2),gr.annot.members(v = 2),gr.script.class(v = 2),gr.class.super(v = 2),gr.anonymous.class(v = 3),markdown.header(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex(v = 2),java.annotations(v = 2),java.class.extlist(v = 3),java.field.name(v = 2),java.method.name(v = 2),jvm.static.member.name(v = 2),jvm.static.member.type(v = 2),java.anonymous.baseref(v = 2),java.method.parameter.types(v = 3),java.class.shortname(v = 4),java.class.fqn(v = 1),java.module.name(v = 4) 
+2021-08-05 19:49:21,803 [   2663]   INFO - exImpl$StubIndexInitialization - Index data initialization done: 54 ms. Initialized stub indexes: {gr.annot.method.name, java.anonymous.baseref, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex, gr.annot.members, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, gr.method.name, java.method.parameter.types, dom.namespaceKey, jvm.static.member.type, dom.elementClass, java.class.shortname, java.field.name, gr.anonymous.class, java.module.name, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, markdown.header, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, gr.class.super, properties.index, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, java.class.extlist, java.class.fqn, gr.script.fqn, gr.class.fqn, java.method.name, jvm.static.member.name, java.annotations, gr.field.name, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, gr.script.class, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex}. 
+2021-08-05 19:49:24,135 [   4995]   INFO - erver.followMe.FollowMeManager - Register new user 0:'hxz' with ClientId=ClientId(value=Host) 
+2021-08-05 19:49:24,785 [   5645]   INFO - dea.updater.SdkComponentSource - File /home/hxz/.android/repositories.cfg could not be loaded. 
+2021-08-05 19:49:24,786 [   5646]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2021-08-05 19:49:25,033 [   5893]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2021-08-05 19:49:25,033 [   5893]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2021-08-05 19:49:25,033 [   5893]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2021-08-05 19:49:25,033 [   5893]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2021-08-05 19:49:25,034 [   5894]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2021-08-05 19:49:25,034 [   5894]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2021-08-05 19:49:25,034 [   5894]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2021-08-05 19:49:25,034 [   5894]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2021-08-05 19:49:25,034 [   5894]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google-tv/sys-img2-1.xml 
+2021-08-05 19:49:25,034 [   5894]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2021-08-05 19:49:25,035 [   5895]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2021-08-05 19:49:25,035 [   5895]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2021-08-05 19:50:00,591 [  41451]   INFO - BridgeArtifactManagerRedefiner - Using workspace model to open project 
+2021-08-05 19:50:00,663 [  41523]   INFO - lij.diagnostic.DebugLogManager - Set TRACE for the following categories: #com.jetbrains.rdserver.requests, #com.jetbrains.rd.ide.document, #com.jetbrains.rdserver.document, #com.jetbrains.rdserver.editors, #com.jetbrains.rdserver.actions, #com.jetbrains.rdserver.permissions 
+2021-08-05 19:50:00,672 [  41532]   INFO - dule.ModuleBridgeLoaderService - Workspace model loaded without cache. Loading real project state into workspace model. Thread[JobScheduler FJ pool 3/11,4,main] 
+2021-08-05 19:50:00,681 [  41541]   INFO - tests.impl.DistributedTestHost - Host address=localhost/127.0.0.1 
+2021-08-05 19:50:00,707 [  41567]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/hxz/py/starship-ops-backend] 
+2021-08-05 19:50:00,745 [  41605]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x5e000b5 
+2021-08-05 19:50:00,766 [  41626]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2021-08-05 19:50:00,771 [  41631]   WARN - kpoints.XBreakpointManagerImpl - Unknown breakpoint type python-line 
+2021-08-05 19:50:00,772 [  41632]   WARN - kpoints.XBreakpointManagerImpl - Unknown breakpoint type python-line 
+2021-08-05 19:50:00,772 [  41632]   WARN - kpoints.XBreakpointManagerImpl - Unknown breakpoint type python-line 
+2021-08-05 19:50:00,772 [  41632]   WARN - kpoints.XBreakpointManagerImpl - Unknown breakpoint type python-line 
+2021-08-05 19:50:00,772 [  41632]   WARN - kpoints.XBreakpointManagerImpl - Unknown breakpoint type python-line 
+2021-08-05 19:50:00,772 [  41632]   WARN - kpoints.XBreakpointManagerImpl - Unknown breakpoint type python-line 
+2021-08-05 19:50:00,772 [  41632]   WARN - kpoints.XBreakpointManagerImpl - Unknown breakpoint type python-line 
+2021-08-05 19:50:00,780 [  41640]   INFO - ins.rd.platform.codeWithMe.a.a - sessionStatus: null 
+2021-08-05 19:50:00,781 [  41641]   INFO - ins.rd.platform.codeWithMe.a.a - freeSessionRemainingTimeMs: null null 
+2021-08-05 19:50:01,577 [  42437]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2021-08-05 19:50:01,591 [  42451]   INFO -  #git4idea.commands.GitHandler - git version 2.32.0 
+2021-08-05 19:50:01,604 [  42464]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git: 2.32.0.0 (UNIX) 
+2021-08-05 19:50:01,667 [  42527]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 6 millis (read time: 1) 
+2021-08-05 19:50:01,714 [  42574]   INFO - erver.followMe.FollowMeManager - Register new user 0:'hxz' with ClientId=ClientId(value=Host) 
+2021-08-05 19:50:01,789 [  42649]   INFO - ramework.util.RdCoroutineScope - RdCoroutineHost overridden 
+2021-08-05 19:50:02,239 [  43099]   INFO - ProjectRootPostStartUpActivity - /home/hxz/py/starship-ops-backend/.idea case-sensitivity: expected=true actual=true 
+2021-08-05 19:50:02,245 [  43105]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2021-08-05 19:50:02,254 [  43114]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 797ms; general responsiveness: ok; EDT responsiveness: 1/1 sluggish 
+2021-08-05 19:50:02,441 [  43301]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: OnDiskSharedIndexChunkLocator 
+2021-08-05 19:50:02,444 [  43304]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: UnindexedFilesUpdater[starship-ops-backend] 
+2021-08-05 19:50:02,656 [  43516]   INFO - ij.psi.search.LogFileTypeIndex - Loading file type index snapshot 
+2021-08-05 19:50:02,664 [  43524]   INFO - indexing.UnindexedFilesUpdater - Started indexing of starship-ops-backend. Reason: On project open 
+2021-08-05 19:50:02,665 [  43525]   INFO - indexing.UnindexedFilesUpdater - Performing delayed pushing properties tasks for starship-ops-backend took 1ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-05 19:50:02,685 [  43545]   INFO - indexing.UnindexedFilesUpdater - Scanning of starship-ops-backend uses 11 scanning threads 
+2021-08-05 19:50:02,755 [  43615]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 2177 ms 
+2021-08-05 19:50:03,215 [  44075]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/libs/context/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:50:03,215 [  44075]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/agent/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:50:03,215 [  44075]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/version_app_config/services/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:50:03,215 [  44075]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/app_config/parameter/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:50:03,215 [  44075]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/client_app/services/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:50:03,215 [  44075]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/rdc/services/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:50:03,215 [  44075]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/sql_query/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:50:03,215 [  44075]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:50:03,215 [  44075]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/client_app_config/services/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:50:03,216 [  44076]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored files under another root: 86 files total 
+2021-08-05 19:50:03,516 [  44376]   INFO - indexing.UnindexedFilesUpdater - Scanning completed for starship-ops-backend. Number of scanned files: 660; Number of files for indexing: 643 took 850ms; general responsiveness: ok; EDT responsiveness: 1/1 sluggish 
+2021-08-05 19:50:03,527 [  44387]   INFO - indexing.UnindexedFilesUpdater - Use 4 indexing threads for indexing of starship-ops-backend 
+2021-08-05 19:50:05,783 [  46643]   INFO - indexing.UnindexedFilesUpdater - Finished for starship-ops-backend. Unindexed files update took 2261ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-05 19:50:05,784 [  46644]   INFO - ij.psi.search.LogFileTypeIndex - File type index snapshot dropped 
+2021-08-05 19:50:05,786 [  46646]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$PruneTask@1c7258ac 
+2021-08-05 19:50:05,787 [  46647]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$ManageLruProjectFilesTask@394a7c8f 
+2021-08-05 19:50:05,790 [  46650]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-05 19:50:05,798 [  46658]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=starship-ops-backend, containerState=COMPONENT_CREATED, componentStore=/home/hxz/py/starship-ops-backend) 
+2021-08-05 19:50:06,099 [  46959]   WARN - g.jetbrains.kotlin.idea.script - [KOTLIN_SCRIPTING] extension gradle.kts file type [UNKNOWN] is not registered as Kotlin 
+2021-08-05 19:50:06,100 [  46960]   WARN - g.jetbrains.kotlin.idea.script - [KOTLIN_SCRIPTING] extension space.kts file type [UNKNOWN] is not registered as Kotlin 
+2021-08-05 19:50:06,100 [  46960]   WARN - g.jetbrains.kotlin.idea.script - [KOTLIN_SCRIPTING] extension main.kts file type [UNKNOWN] is not registered as Kotlin 
+2021-08-05 19:50:06,100 [  46960]   WARN - g.jetbrains.kotlin.idea.script - [KOTLIN_SCRIPTING] extensions [gradle.kts, space.kts, main.kts] is about to be registered as Kotlin 
+2021-08-05 19:50:06,102 [  46962]   INFO - .services.SpaceKtsFileDetector - SpaceKtsFileDetector 
+2021-08-05 19:50:06,126 [  46986]   INFO - il.indexing.FileBasedIndexImpl - indexes cleared: 
+survived indexes: FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, xmlProperties, editorconfig.index.name, yaml.keys.name, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, ant-imports, LombokConfigIndex, com.intellij.uiDesigner.FormClassIndex, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, groovy.trait.fields, groovy.trait.methods, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME, BindingXmlIndex, MlModelFileIndex, NavXmlIndex 
+2021-08-05 19:50:06,144 [  47004]   INFO - pl.ProjectRootManagerComponent - Project roots of starship-ops-backend have changed (trace_hash = -491816439) 
+java.lang.Throwable
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.logRootChanges(ProjectRootManagerComponent.java:344)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.synchronizeRoots(ProjectRootManagerComponent.java:331)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.fireRootsChangedEvent(ProjectRootManagerComponent.java:238)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.fireRootsChanged(ProjectRootManagerImpl.java:449)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$2.fireRootsChanged(ProjectRootManagerImpl.java:167)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$2.fireRootsChanged(ProjectRootManagerImpl.java:164)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.rootsChanged(ProjectRootManagerImpl.java:113)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.rootsChanged(ProjectRootManagerImpl.java:121)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent$2.fileTypesChanged(ProjectRootManagerComponent.java:116)
+	at com.intellij.util.messages.impl.MessageBusImpl.invokeMethod(MessageBusImpl.java:645)
+	at com.intellij.util.messages.impl.MessageBusImpl.invokeListener(MessageBusImpl.java:620)
+	at com.intellij.util.messages.impl.MessageBusImpl.deliverMessage(MessageBusImpl.java:417)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpWaitingBuses(MessageBusImpl.java:390)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpMessages(MessageBusImpl.java:372)
+	at com.intellij.util.messages.impl.MessageBusImpl.access$200(MessageBusImpl.java:33)
+	at com.intellij.util.messages.impl.MessageBusImpl$MessagePublisher.invoke(MessageBusImpl.java:179)
+	at com.sun.proxy.$Proxy147.fileTypesChanged(Unknown Source)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.fireFileTypesChanged(FileTypeManagerImpl.java:927)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.fireFileTypesChanged(FileTypeManagerImpl.java:921)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.associate(FileTypeManagerImpl.java:1506)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.associate(FileTypeManagerImpl.java:893)
+	at com.intellij.openapi.fileTypes.FileTypeManager.associateExtension(FileTypeManager.java:153)
+	at org.jetbrains.kotlin.idea.core.script.ScriptDefinitionsManager$UpdateDefinitionsResult$apply$1$$special$$inlined$runWriteAction$1.compute(actions.kt:62)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$runWriteAction$15(ApplicationImpl.java:945)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteActionWithClass(ApplicationImpl.java:924)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:945)
+	at org.jetbrains.kotlin.idea.core.script.ScriptDefinitionsManager$UpdateDefinitionsResult$apply$1.run(ScriptDefinitionsManager.kt:496)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:214)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$200(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:196)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:794)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLater$4(ApplicationImpl.java:350)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:84)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:133)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:46)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:189)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:886)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:755)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:442)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:825)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:441)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:794)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:487)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2021-08-05 19:50:06,145 [  47005]   INFO - penapi.project.DumbServiceImpl - cancel UnindexedFilesUpdater[starship-ops-backend] 
+2021-08-05 19:50:06,146 [  47006]   INFO - il.indexing.FileBasedIndexImpl - indexes cleared: 
+survived indexes: FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, xmlProperties, editorconfig.index.name, yaml.keys.name, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, ant-imports, LombokConfigIndex, com.intellij.uiDesigner.FormClassIndex, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, groovy.trait.fields, groovy.trait.methods, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME, BindingXmlIndex, MlModelFileIndex, NavXmlIndex 
+2021-08-05 19:50:06,146 [  47006]   INFO - penapi.project.DumbServiceImpl - cancel UnindexedFilesUpdater[starship-ops-backend] 
+2021-08-05 19:50:06,148 [  47008]   INFO - pl.ProjectRootManagerComponent - Project roots of starship-ops-backend have changed (stacktrace has been already reported with trace_hash = -491816439) 
+2021-08-05 19:50:06,148 [  47008]   INFO - penapi.project.DumbServiceImpl - cancel UnindexedFilesUpdater[starship-ops-backend] 
+2021-08-05 19:50:06,149 [  47009]   INFO - il.indexing.FileBasedIndexImpl - indexes cleared: 
+survived indexes: FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, xmlProperties, editorconfig.index.name, yaml.keys.name, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, ant-imports, LombokConfigIndex, com.intellij.uiDesigner.FormClassIndex, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, groovy.trait.fields, groovy.trait.methods, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME, BindingXmlIndex, MlModelFileIndex, NavXmlIndex 
+2021-08-05 19:50:06,149 [  47009]   INFO - penapi.project.DumbServiceImpl - cancel UnindexedFilesUpdater[starship-ops-backend] 
+2021-08-05 19:50:06,150 [  47010]   INFO - pl.ProjectRootManagerComponent - Project roots of starship-ops-backend have changed (stacktrace has been already reported with trace_hash = -491816439) 
+2021-08-05 19:50:06,150 [  47010]   INFO - penapi.project.DumbServiceImpl - cancel UnindexedFilesUpdater[starship-ops-backend] 
+2021-08-05 19:50:06,171 [  47031]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRegistry$PopulateCachesTask@3ac0b9c0 
+2021-08-05 19:50:06,172 [  47032]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: UnindexedFilesUpdater[starship-ops-backend] 
+2021-08-05 19:50:06,173 [  47033]   INFO - ij.psi.search.LogFileTypeIndex - Loading file type index snapshot 
+2021-08-05 19:50:06,173 [  47033]   INFO - indexing.UnindexedFilesUpdater - Started indexing of starship-ops-backend. Reason: Project roots have changed 
+2021-08-05 19:50:06,173 [  47033]   INFO - indexing.UnindexedFilesUpdater - Performing delayed pushing properties tasks for starship-ops-backend took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-05 19:50:06,174 [  47034]   INFO - indexing.UnindexedFilesUpdater - Scanning of starship-ops-backend uses 11 scanning threads 
+2021-08-05 19:50:06,229 [  47089]   INFO - indexing.UnindexedFilesUpdater - Scanning completed for starship-ops-backend. Number of scanned files: 660; Number of files for indexing: 0 took 56ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-05 19:50:06,229 [  47089]   INFO - indexing.UnindexedFilesUpdater - Finished for starship-ops-backend. No files to index with loading content. 
+2021-08-05 19:50:06,229 [  47089]   INFO - ij.psi.search.LogFileTypeIndex - File type index snapshot dropped 
+2021-08-05 19:50:06,232 [  47092]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-05 19:50:06,232 [  47092]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=starship-ops-backend, containerState=COMPONENT_CREATED, componentStore=/home/hxz/py/starship-ops-backend) 
+2021-08-05 19:50:06,451 [  47311]   INFO - CompilerWorkspaceConfiguration - Available processors: 12 
+2021-08-05 19:50:08,129 [  48989]   INFO - ta.index.VcsLogPersistentIndex - Indexing full repository in starship-ops-backend 
+2021-08-05 19:50:10,316 [  51176]   WARN - .intellij.diagnostic.VMOptions - VM options file not configured 
+2021-08-05 19:50:10,316 [  51176]   INFO - gnostic.MemorySizeConfigurator - Physical memory 31894M, minimum memory size 256M, -Xmx adjusted from 512M to 2048M 
+2021-08-05 19:50:10,377 [  51237]   INFO - m.codeWithMe.CodeWithMeCleanup - running activity to cleanup old thin clients... Root path is '/home/hxz/.cache/JetBrains' 
+2021-08-05 19:50:10,378 [  51238]   INFO - m.codeWithMe.CodeWithMeCleanup - found 0 Code With Me client system folders to check 
+2021-08-05 19:50:10,378 [  51238]   INFO - m.codeWithMe.CodeWithMeCleanup - found 0 Code With Me client config folders to check 
+2021-08-05 19:50:10,380 [  51240]   INFO - m.codeWithMe.CodeWithMeCleanup - keep only [] major versions 
+2021-08-05 19:50:10,816 [  51676]   WARN - com.intellij.util.xmlb.Binding - no accessors for dev.nocalhost.plugin.intellij.settings.data.ServiceProjectPath 
+2021-08-05 19:50:15,679 [  56539]   INFO - ta.index.VcsLogPersistentIndex - 7.550s for indexing 2913 commits in starship-ops-backend 
+2021-08-05 19:50:15,701 [  56561]   INFO - ta.index.VcsLogPersistentIndex - Indexing 2913 commits in starship-ops-backend 
+2021-08-05 19:50:15,709 [  56569]   INFO - ta.index.VcsLogPersistentIndex - 6ms for indexing 0 new commits out of 2913 in starship-ops-backend 
+2021-08-05 19:50:24,151 [  65011]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$3@6c2414 
+2021-08-05 19:50:24,178 [  65038]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-05 19:50:24,178 [  65038]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=starship-ops-backend, containerState=COMPONENT_CREATED, componentStore=/home/hxz/py/starship-ops-backend) 
+2021-08-05 19:50:49,564 [  90424]   INFO - ectsystem.ProjectSystemService - DefaultProjectSystem project system has been detected 
+2021-08-05 19:50:49,830 [  90690]   INFO - System.impl.PopupMenuPreloader - Popup menu preloaded for `ProjectViewPopup` in 515 ms 
+2021-08-05 19:50:49,831 [  90691]   INFO - System.impl.PopupMenuPreloader - Popup menu preloaded for `ProjectViewPopup` in 519 ms 
+2021-08-05 19:51:21,966 [ 122826]   INFO - rationStore.ComponentStoreImpl - Saving Project(name=starship-ops-backend, containerState=COMPONENT_CREATED, componentStore=/home/hxz/py/starship-ops-backend)RunManager took 15 ms 
+2021-08-05 19:52:02,607 [ 163467]   INFO - BridgeArtifactManagerRedefiner - Using workspace model to open project 
+2021-08-05 19:52:02,612 [ 163472]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x5e00387 
+2021-08-05 19:52:02,633 [ 163493]   INFO - dule.ModuleBridgeLoaderService - Workspace model loaded without cache. Loading real project state into workspace model. Thread[JobScheduler FJ pool 7/11,4,main] 
+2021-08-05 19:52:02,633 [ 163493]   INFO - lij.diagnostic.DebugLogManager - Set TRACE for the following categories: #com.jetbrains.rdserver.requests, #com.jetbrains.rd.ide.document, #com.jetbrains.rdserver.document, #com.jetbrains.rdserver.editors, #com.jetbrains.rdserver.actions, #com.jetbrains.rdserver.permissions 
+2021-08-05 19:52:02,634 [ 163494]   INFO - tests.impl.DistributedTestHost - Host address=localhost/127.0.0.1 
+2021-08-05 19:52:02,636 [ 163496]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2021-08-05 19:52:02,638 [ 163498]   INFO - ins.rd.platform.codeWithMe.a.a - sessionStatus: null 
+2021-08-05 19:52:02,638 [ 163498]   INFO - ins.rd.platform.codeWithMe.a.a - freeSessionRemainingTimeMs: null null 
+2021-08-05 19:52:02,662 [ 163522]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/hxz/go/src/starship] 
+2021-08-05 19:52:02,909 [ 163769]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 1 millis (read time: 0) 
+2021-08-05 19:52:02,932 [ 163792]   INFO - ProjectRootPostStartUpActivity - /home/hxz/go/src/starship/.idea case-sensitivity: expected=true actual=true 
+2021-08-05 19:52:02,947 [ 163807]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 50ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-05 19:52:02,963 [ 163823]   INFO - erver.followMe.FollowMeManager - Register new user 0:'hxz' with ClientId=ClientId(value=Host) 
+2021-08-05 19:52:02,963 [ 163823]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 4838 ms 
+2021-08-05 19:52:03,129 [ 163989]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: OnDiskSharedIndexChunkLocator 
+2021-08-05 19:52:03,131 [ 163991]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: UnindexedFilesUpdater[starship] 
+2021-08-05 19:52:03,131 [ 163991]   INFO - ij.psi.search.LogFileTypeIndex - Loading file type index snapshot 
+2021-08-05 19:52:03,132 [ 163992]   INFO - indexing.UnindexedFilesUpdater - Started indexing of starship. Reason: On project open 
+2021-08-05 19:52:03,132 [ 163992]   INFO - indexing.UnindexedFilesUpdater - Performing delayed pushing properties tasks for starship took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-05 19:52:03,132 [ 163992]   INFO - indexing.UnindexedFilesUpdater - Scanning of starship uses 11 scanning threads 
+2021-08-05 19:52:03,145 [ 164005]   INFO - indexing.UnindexedFilesUpdater - Scanning completed for starship. Number of scanned files: 222; Number of files for indexing: 0 took 13ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-05 19:52:03,145 [ 164005]   INFO - indexing.UnindexedFilesUpdater - Finished for starship. No files to index with loading content. 
+2021-08-05 19:52:03,145 [ 164005]   INFO - ij.psi.search.LogFileTypeIndex - File type index snapshot dropped 
+2021-08-05 19:52:03,146 [ 164006]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$PruneTask@16839199 
+2021-08-05 19:52:03,146 [ 164006]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$ManageLruProjectFilesTask@4dcc6e85 
+2021-08-05 19:52:03,153 [ 164013]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 550 ms 
+2021-08-05 19:52:03,166 [ 164026]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-05 19:52:03,168 [ 164028]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=starship, containerState=COMPONENT_CREATED, componentStore=/home/hxz/go/src/starship) 
+2021-08-05 19:52:03,211 [ 164071]   INFO - .services.SpaceKtsFileDetector - SpaceKtsFileDetector 
+2021-08-05 19:52:03,222 [ 164082]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRegistry$PopulateCachesTask@374c3f37 
+2021-08-05 19:52:03,247 [ 164107]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-05 19:52:03,247 [ 164107]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=starship, containerState=COMPONENT_CREATED, componentStore=/home/hxz/go/src/starship) 
+2021-08-05 19:52:07,951 [ 168811]   INFO - m.codeWithMe.CodeWithMeCleanup - running activity to cleanup old thin clients... Root path is '/home/hxz/.cache/JetBrains' 
+2021-08-05 19:52:07,951 [ 168811]   INFO - m.codeWithMe.CodeWithMeCleanup - found 0 Code With Me client system folders to check 
+2021-08-05 19:52:07,952 [ 168812]   INFO - m.codeWithMe.CodeWithMeCleanup - found 0 Code With Me client config folders to check 
+2021-08-05 19:52:07,952 [ 168812]   INFO - m.codeWithMe.CodeWithMeCleanup - keep only [] major versions 
+2021-08-05 19:52:08,217 [ 169077]   INFO - ta.index.VcsLogPersistentIndex - Indexing full repository in starship 
+2021-08-05 19:52:08,223 [ 169083]   INFO - ta.index.VcsLogPersistentIndex - 6ms for indexing 13 commits in starship 
+2021-08-05 19:52:09,891 [ 170751]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/libs/context/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:52:09,892 [ 170752]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/agent/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:52:09,892 [ 170752]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/version_app_config/services/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:52:09,892 [ 170752]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/app_config/parameter/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:52:09,892 [ 170752]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/client_app/services/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:52:09,892 [ 170752]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/rdc/services/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:52:09,892 [ 170752]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/sql_query/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:52:09,892 [ 170752]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:52:09,893 [ 170753]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored file under another root: /home/hxz/py/starship-ops-backend/modules/client_app_config/services/__pycache__; root: /home/hxz/py/starship-ops-backend; mapped root: null 
+2021-08-05 19:52:09,893 [ 170753]   WARN - a.repo.GitUntrackedFilesHolder - Ignoring ignored files under another root: 86 files total 
+2021-08-05 19:52:20,546 [ 181406]   INFO - j.compiler.server.BuildManager - Clearing project build data because the project does not exist or was not opened for more than 30 days: /home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/compile-server/starship_6ac5ce50 
+2021-08-05 19:53:09,889 [ 230749]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;../src/starship 
+2021-08-05 19:53:09,910 [ 230770]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+2021-08-05 19:53:10,038 [ 230898]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+2021-08-05 19:53:10,038 [ 230898]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;/home/hxz/.nh/bin/nhctl 
+2021-08-05 19:53:10,296 [ 231156]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2021-08-05 20:07:02,732 [1063592]   INFO - ectsystem.ProjectSystemService - DefaultProjectSystem project system has been detected 
+2021-08-06 09:40:11,821 [49852681]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$3@1781df70 
+2021-08-06 09:40:11,825 [49852685]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-06 09:40:11,825 [49852685]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$3@7639c8e5 
+2021-08-06 09:40:11,825 [49852685]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=starship-ops-backend, containerState=COMPONENT_CREATED, componentStore=/home/hxz/py/starship-ops-backend) 
+2021-08-06 09:40:11,827 [49852687]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-06 09:40:11,827 [49852687]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=starship, containerState=COMPONENT_CREATED, componentStore=/home/hxz/go/src/starship) 
+2021-08-06 09:40:52,864 [49893724]   INFO - ication.options.PathMacrosImpl - Saved path macros: {MAVEN_REPOSITORY=/home/hxz/.m2/repository, KOTLIN_BUNDLED=/home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Kotlin/kotlinc} 
+2021-08-06 09:40:52,888 [49893748]   INFO - rationStore.ComponentStoreImpl - Saving appPluginFeatureCacheService took 12 ms 
+2021-08-06 09:42:00,189 [49961049]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2021-08-06 09:42:00,273 [49961133]   INFO - tellij.psi.stubs.StubIndexImpl - StubIndexExtension-s were unloaded 
+2021-08-06 09:42:00,323 [49961183]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2021-08-06 09:42:00,324 [49961184]   INFO - stubs.SerializationManagerImpl - Start shutting down /home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/index/rep.names 
+2021-08-06 09:42:00,325 [49961185]   INFO - stubs.SerializationManagerImpl - Finished shutting down /home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/index/rep.names 
+2021-08-06 09:42:00,325 [49961185]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2021-08-06 09:42:00,325 [49961185]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2021-08-06 09:42:00,325 [49961185]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2021-08-06 09:42:00,326 [49961186]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-08-06 20:59:09,130 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-08-06 20:59:09,183 [     53]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-212.4746.92, 27 Jul 2021 15:08) 
+2021-08-06 20:59:09,197 [     67]   INFO -        #com.intellij.idea.Main - OS: Linux (5.11.0-25-generic, amd64) 
+2021-08-06 20:59:09,215 [     85]   INFO -        #com.intellij.idea.Main - JRE: 11.0.11+9-b1504.13 (JetBrains s.r.o.) 
+2021-08-06 20:59:09,216 [     86]   INFO -        #com.intellij.idea.Main - JVM: 11.0.11+9-b1504.13 (OpenJDK 64-Bit Server VM) 
+2021-08-06 20:59:09,248 [    118]   INFO -        #com.intellij.idea.Main - JVM Args: -Didea.auto.reload.plugins=true -Didea.classpath.index.enabled=false -Didea.config.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/config -Didea.is.internal=true -Didea.platform.prefix=Idea -Didea.plugins.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins -Didea.system.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system -Dsun.awt.disablegrab=true -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -ea 
+2021-08-06 20:59:09,248 [    118]   INFO -        #com.intellij.idea.Main - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib 
+2021-08-06 20:59:09,249 [    119]   INFO -        #com.intellij.idea.Main - boot library path: /home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr_jcef-11_0_11-linux-x64-b1504.13/jbr/lib 
+2021-08-06 20:59:09,297 [    167]   INFO -        #com.intellij.idea.Main - locale=zh_CN JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/config
+  idea.system.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system
+  idea.plugins.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins
+  idea.log.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/log 
+2021-08-06 20:59:09,319 [    189]   INFO -        #com.intellij.idea.Main - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@14af48b8[Running, parallelism = 11, size = 8, active = 5, running = 5, steals = 1, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@3ab046cc 
+2021-08-06 20:59:09,409 [    279]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 89 ms 
+2021-08-06 20:59:09,591 [    461]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=PHP, id=com.jetbrains.php, descriptorPath=plugin.xml, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/php, version=212.4746.92, package=null) misses optional descriptor php-shared-indexes.xml 
+2021-08-06 20:59:10,682 [   1552]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Groovy, version=212.4746.92, package=org.jetbrains.plugins.groovy) misses optional descriptor duplicates-groovy.xml 
+2021-08-06 20:59:10,696 [   1566]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Groovy, version=212.4746.92, package=org.jetbrains.plugins.groovy) misses optional descriptor duplicates-detection-groovy.xml 
+2021-08-06 20:59:12,174 [   3044]   WARN - llij.ide.plugins.PluginManager - Problems found loading plugins:
+  The PHP (id=com.jetbrains.php, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/php, version=212.4746.92) plugin Plugin 'PHP' requires plugin 'com.intellij.modules.php-capable' to be installed
+  The Go (id=org.jetbrains.plugins.go, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/go, version=212.4746.92) plugin Plugin 'Go' requires plugin 'com.intellij.modules.go-capable' to be installed 
+2021-08-06 20:59:12,190 [   3060]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE (212.4746.92), Configuration Script (212.4746.92), Dependency Management Api for External Build Tools (212.4746.92), JetBrains maven model api classes (212.4746.92), JetBrains Repository Search (212.4746.92), WSL File System Support (212.4746.92), Perforce Helix Core (212.4746.92), Subversion (212.4746.92), XPathView + XSLT (212.4746.92), XSLT Debugger (212.4746.92), Smali Support (212.4746.92), Machine Learning Code Completion (212.4746.92), Copyright (212.4746.92), Images (212.4746.92), macOS Light Theme (212.4746.92), Windows 10 Light Theme (212.4746.92), JetBrains Marketplace Licensing Support (212.4746.92), Properties (212.4746.92), Gradle (212.4746.92), Mercurial (212.4746.92), WebP Support (212.4746.92), EditorConfig (212.4746.92), Emoji Picker (212.4746.92), Terminal (212.4746.92), Git (212.4746.92), ChangeReminder (212.4746.92), Shell Script (212.4746.92), TextMate Bundles (212.4746.92), YAML (212.4746.92), Settings Repository (212.4746.92), IDE Features Trainer (212.4746.92), IDE Features Trainer: Git Lessons (212.4746.92), Java (212.4746.92), Ant (212.4746.92), Bytecode Viewer (212.4746.92), JUnit (212.4746.92), Lombok (212.4746.92), Java Internationalization (212.4746.92), UI Designer (212.4746.92), Java IDE Customization (212.4746.92), Java Stream Debugger (212.4746.92), Eclipse Interoperability (212.4746.92), Java Bytecode Decompiler (212.4746.92), JavaFX (212.4746.92), Task Management (212.4746.92), Code With Me (212.4746.92), Shared Indexes (212.4746.92), IntelliLang (212.4746.92), Groovy (212.4746.92), Maven (212.4746.92), TestNG (212.4746.92), Code Coverage for Java (212.4746.92), Gradle-Java (212.4746.92), Gradle-Maven (212.4746.92), Plugin DevKit (212.4746.92), Markdown (212.4746.92), GitHub (212.4746.92), Grazie (212.4746.92), Kotlin (212-1.5.10-release-IJ4746.92), Space (212.4746.92), Package Search (212.4746.92), Gradle DSL API (212.4746.92), Android (10.4.2.212.4746.92), Gradle Dependency Updater Implementation (212.4746.92) 
+2021-08-06 20:59:12,190 [   3060]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Nocalhost (1.0.0-212) 
+2021-08-06 20:59:12,407 [   3277]   INFO -        #com.intellij.idea.Main - WM detected: GNOME Shell 
+2021-08-06 20:59:14,469 [   5339]   WARN - j.internal.DebugAttachDetector - Unable to start DebugAttachDetector, please add `--add-exports java.base/jdk.internal.vm=ALL-UNNAMED` to VM options 
+2021-08-06 20:59:14,590 [   5460]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2021-08-06 20:59:14,598 [   5468]   INFO - ication.options.PathMacrosImpl - Loaded path macros: {MAVEN_REPOSITORY=/home/hxz/.m2/repository, KOTLIN_BUNDLED=/home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Kotlin/kotlinc} 
+2021-08-06 20:59:14,605 [   5475]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2021-08-06 20:59:14,635 [   5505]   INFO - lij.diagnostic.DebugLogManager - Set TRACE for the following categories: #com.jetbrains.rdserver.requests, #com.jetbrains.rd.ide.document, #com.jetbrains.rdserver.document, #com.jetbrains.rdserver.editors, #com.jetbrains.rdserver.actions, #com.jetbrains.rdserver.permissions 
+2021-08-06 20:59:14,637 [   5507]   INFO - intellij.diagnostic.JitWatcher - JIT compilation state checking enabled 
+2021-08-06 20:59:14,645 [   5515]   INFO - intellij.util.io.FilePageCache - lower=100; upper=492; buffer=10; max=492 
+2021-08-06 20:59:15,334 [   6204]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2021-08-06 20:59:15,358 [   6228]   INFO - penapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, editor.reader.mode, new.large.text.file.viewer, wsl.fsd.content.loader, terminal.shell.command.handling 
+2021-08-06 20:59:15,855 [   6725]   INFO - impl.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty 
+2021-08-06 20:59:16,019 [   6889]   WARN - l.NotificationGroupManagerImpl - Notification group CodeWithMe is already registered (group=com.intellij.notification.NotificationGroup@33ca25dd). Plugin descriptor: PluginDescriptor(name=Code With Me, id=com.jetbrains.codeWithMe, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/cwm-plugin, version=212.4746.92, package=null) 
+2021-08-06 20:59:16,462 [   7332]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/bin/linux/fsnotifier 
+2021-08-06 20:59:16,537 [   7407]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2021-08-06 20:59:16,540 [   7410]   INFO - penapi.wm.impl.GlobalMenuLinux - Start glib main loop in thread: GlobalMenuLinux loop 
+2021-08-06 20:59:16,541 [   7411]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2021-08-06 20:59:16,636 [   7506]   INFO - leBasedIndexDataInitialization - Index data initialization done: 1444 ms. Initialized indexes: [FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, xmlProperties, editorconfig.index.name, yaml.keys.name, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, ant-imports, LombokConfigIndex, com.intellij.uiDesigner.FormClassIndex, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, groovy.trait.fields, groovy.trait.methods, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME, BindingXmlIndex, MlModelFileIndex, NavXmlIndex]. 
+2021-08-06 20:59:16,657 [   7527]   INFO - exImpl$StubIndexInitialization - Index data initialization done: 21 ms. Initialized stub indexes: {gr.annot.method.name, java.anonymous.baseref, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex, gr.annot.members, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, gr.method.name, java.method.parameter.types, dom.namespaceKey, jvm.static.member.type, dom.elementClass, java.class.shortname, java.field.name, gr.anonymous.class, java.module.name, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, markdown.header, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, gr.class.super, properties.index, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, java.class.extlist, java.class.fqn, gr.script.fqn, gr.class.fqn, java.method.name, jvm.static.member.name, java.annotations, gr.field.name, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, gr.script.class, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex}. 
+2021-08-06 20:59:18,835 [   9705]   INFO - ar.ExperimentalToolbarSettings - Loading old state, main toolbar: false navBar true 
+2021-08-06 20:59:19,424 [  10294]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2021-08-06 20:59:19,724 [  10594]   INFO - dea.updater.SdkComponentSource - File /home/hxz/.android/repositories.cfg could not be loaded. 
+2021-08-06 20:59:19,725 [  10595]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2021-08-06 20:59:19,725 [  10595]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2021-08-06 20:59:19,725 [  10595]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2021-08-06 20:59:19,726 [  10596]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2021-08-06 20:59:19,726 [  10596]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2021-08-06 20:59:19,726 [  10596]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google-tv/sys-img2-1.xml 
+2021-08-06 20:59:19,726 [  10596]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2021-08-06 20:59:19,726 [  10596]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2021-08-06 20:59:19,726 [  10596]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2021-08-06 20:59:19,727 [  10597]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2021-08-06 20:59:19,727 [  10597]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2021-08-06 20:59:19,727 [  10597]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2021-08-06 20:59:22,156 [  13026]   INFO - erver.followMe.FollowMeManager - Register new user 0:'hxz' with ClientId=ClientId(value=Host) 
+2021-08-06 20:59:30,472 [  21342]   WARN - nSystem.impl.ActionToolbarImpl - 'toolbar' toolbar by default uses any focused component to update its actions. Toolbar actions that need local UI context would be incorrectly disabled. Please call toolbar.setTargetComponent() explicitly. 
+java.lang.Throwable: toolbar creation trace
+	at com.intellij.openapi.actionSystem.impl.ActionToolbarImpl.<init>(ActionToolbarImpl.java:112)
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.createActionToolbar(ActionManagerImpl.java:432)
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.createActionToolbar(ActionManagerImpl.java:426)
+	at com.intellij.ide.ui.laf.LafManagerImpl.lambda$new$4(LafManagerImpl.java:160)
+	at com.intellij.util.concurrency.SynchronizedClearableLazy.getValue(SynchronizedClearableLazy.kt:37)
+	at com.intellij.ide.ui.laf.LafManagerImpl.getSettingsToolbar(LafManagerImpl.java:540)
+	at com.intellij.openapi.wm.impl.welcomeScreen.CustomizeTab$buildComponent$$inlined$panel$lambda$1$1.invoke(CustomizeTabFactory.kt:175)
+	at com.intellij.openapi.wm.impl.welcomeScreen.CustomizeTab$buildComponent$$inlined$panel$lambda$1$1.invoke(CustomizeTabFactory.kt:62)
+	at com.intellij.ide.ui.AppearanceConfigurableKt$fullRow$1.invoke(AppearanceConfigurable.kt:409)
+	at com.intellij.ide.ui.AppearanceConfigurableKt$fullRow$1.invoke(AppearanceConfigurable.kt)
+	at com.intellij.ui.layout.RowBuilder$DefaultImpls.row(Row.kt:42)
+	at com.intellij.ui.layout.Row.row(Row.kt:112)
+	at com.intellij.ui.layout.RowBuilder$DefaultImpls.row$default(Row.kt:41)
+	at com.intellij.ide.ui.AppearanceConfigurableKt.fullRow(AppearanceConfigurable.kt:366)
+	at com.intellij.openapi.wm.impl.welcomeScreen.CustomizeTab$buildComponent$$inlined$panel$lambda$1.invoke(CustomizeTabFactory.kt:164)
+	at com.intellij.openapi.wm.impl.welcomeScreen.CustomizeTab$buildComponent$$inlined$panel$lambda$1.invoke(CustomizeTabFactory.kt:62)
+	at com.intellij.ui.layout.migLayout.MigLayoutRow.createBlockRow(MigLayoutRow.kt:277)
+	at com.intellij.ui.layout.migLayout.MigLayoutRow.blockRow(MigLayoutRow.kt:272)
+	at com.intellij.ui.layout.LayoutBuilder.blockRow(LayoutBuilder.kt)
+	at com.intellij.openapi.wm.impl.welcomeScreen.CustomizeTab.buildComponent(CustomizeTabFactory.kt:162)
+	at com.intellij.openapi.wm.impl.welcomeScreen.TabbedWelcomeScreen$DefaultWelcomeScreenTab.getAssociatedComponent(TabbedWelcomeScreen.java:190)
+	at com.intellij.openapi.wm.impl.welcomeScreen.TabbedWelcomeScreen$2.create(TabbedWelcomeScreen.java:134)
+	at com.intellij.openapi.wm.impl.welcomeScreen.TabbedWelcomeScreen$2.create(TabbedWelcomeScreen.java:126)
+	at com.intellij.ui.CardLayoutPanel.createValue(CardLayoutPanel.java:73)
+	at com.intellij.ui.CardLayoutPanel.select(CardLayoutPanel.java:101)
+	at com.intellij.ui.CardLayoutPanel.select(CardLayoutPanel.java:86)
+	at com.intellij.openapi.wm.impl.welcomeScreen.TabbedWelcomeScreen.lambda$new$0(TabbedWelcomeScreen.java:46)
+	at java.desktop/javax.swing.JList.fireSelectionValueChanged(JList.java:1804)
+	at java.desktop/javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1818)
+	at java.desktop/javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:219)
+	at java.desktop/javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:199)
+	at java.desktop/javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:246)
+	at java.desktop/javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:443)
+	at java.desktop/javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:453)
+	at java.desktop/javax.swing.DefaultListSelectionModel.setSelectionInterval(DefaultListSelectionModel.java:497)
+	at java.desktop/javax.swing.JList.setSelectionInterval(JList.java:2077)
+	at java.desktop/javax.swing.plaf.basic.BasicListUI$Handler.adjustSelection(BasicListUI.java:2901)
+	at java.desktop/javax.swing.plaf.basic.BasicListUI$Handler.mousePressed(BasicListUI.java:2857)
+	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:288)
+	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6649)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3345)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6417)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5027)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4859)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4544)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2784)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4859)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:778)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:751)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:749)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:748)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:886)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:815)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:752)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:442)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:825)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:441)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:794)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:493)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2021-08-06 20:59:37,221 [  28091]   INFO - oader.EventLogExternalUploader - Started external process for uploading event log 
+2021-08-06 20:59:37,320 [  28190]   INFO - rationStore.ComponentStoreImpl - Saving appCodeInsightSettings took 30 ms 
+2021-08-06 20:59:37,558 [  28428]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2021-08-06 20:59:37,560 [  28430]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-08-06 20:59:37,576 [  28446]   INFO - erver.followMe.FollowMeManager - Unregister user 0:'hxz' with ClientId=ClientId(value=Host) 
+2021-08-06 20:59:37,582 [  28452]   INFO - .impl.FileTypeDetectionService - 0 auto-detected files. Detection took 0 ms 
+2021-08-06 20:59:37,584 [  28454]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2021-08-06 20:59:37,616 [  28486]   INFO - tellij.psi.stubs.StubIndexImpl - StubIndexExtension-s were unloaded 
+2021-08-06 20:59:37,655 [  28525]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2021-08-06 20:59:37,655 [  28525]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2021-08-06 20:59:37,656 [  28526]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2021-08-06 20:59:37,657 [  28527]   INFO - stubs.SerializationManagerImpl - Start shutting down /home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/index/rep.names 
+2021-08-06 20:59:37,657 [  28527]   INFO - stubs.SerializationManagerImpl - Finished shutting down /home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/index/rep.names 
+2021-08-06 20:59:37,749 [  28619]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2021-08-06 20:59:37,750 [  28620]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-08-06 21:02:53,338 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-08-06 21:02:53,367 [     29]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-212.4746.92, 27 Jul 2021 15:08) 
+2021-08-06 21:02:53,369 [     31]   INFO -        #com.intellij.idea.Main - OS: Linux (5.11.0-25-generic, amd64) 
+2021-08-06 21:02:53,376 [     38]   INFO -        #com.intellij.idea.Main - JRE: 11.0.11+9-b1504.13 (JetBrains s.r.o.) 
+2021-08-06 21:02:53,378 [     40]   INFO -        #com.intellij.idea.Main - JVM: 11.0.11+9-b1504.13 (OpenJDK 64-Bit Server VM) 
+2021-08-06 21:02:53,379 [     41]   INFO -        #com.intellij.idea.Main - JVM Args: -Didea.auto.reload.plugins=true -Didea.classpath.index.enabled=false -Didea.config.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/config -Didea.is.internal=true -Didea.platform.prefix=Idea -Didea.plugins.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins -Didea.system.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system -Dsun.awt.disablegrab=true -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -ea 
+2021-08-06 21:02:53,379 [     41]   INFO -        #com.intellij.idea.Main - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib 
+2021-08-06 21:02:53,379 [     41]   INFO -        #com.intellij.idea.Main - boot library path: /home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr_jcef-11_0_11-linux-x64-b1504.13/jbr/lib 
+2021-08-06 21:02:53,410 [     72]   INFO -        #com.intellij.idea.Main - locale=zh_CN JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/config
+  idea.system.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system
+  idea.plugins.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins
+  idea.log.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/log 
+2021-08-06 21:02:53,420 [     82]   INFO -        #com.intellij.idea.Main - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@5ca0eee0[Running, parallelism = 11, size = 8, active = 3, running = 3, steals = 3, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@2cdf86e1 
+2021-08-06 21:02:53,435 [     97]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 15 ms 
+2021-08-06 21:02:53,488 [    150]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=PHP, id=com.jetbrains.php, descriptorPath=plugin.xml, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/php, version=212.4746.92, package=null) misses optional descriptor php-shared-indexes.xml 
+2021-08-06 21:02:53,521 [    183]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Groovy, version=212.4746.92, package=org.jetbrains.plugins.groovy) misses optional descriptor duplicates-groovy.xml 
+2021-08-06 21:02:53,521 [    183]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Groovy, version=212.4746.92, package=org.jetbrains.plugins.groovy) misses optional descriptor duplicates-detection-groovy.xml 
+2021-08-06 21:02:53,837 [    499]   WARN - llij.ide.plugins.PluginManager - Problems found loading plugins:
+  The PHP (id=com.jetbrains.php, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/php, version=212.4746.92) plugin Plugin 'PHP' requires plugin 'com.intellij.modules.php-capable' to be installed
+  The Go (id=org.jetbrains.plugins.go, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/go, version=212.4746.92) plugin Plugin 'Go' requires plugin 'com.intellij.modules.go-capable' to be installed 
+2021-08-06 21:02:53,848 [    510]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE (212.4746.92), Configuration Script (212.4746.92), Dependency Management Api for External Build Tools (212.4746.92), JetBrains maven model api classes (212.4746.92), JetBrains Repository Search (212.4746.92), WSL File System Support (212.4746.92), Perforce Helix Core (212.4746.92), Subversion (212.4746.92), XPathView + XSLT (212.4746.92), XSLT Debugger (212.4746.92), Smali Support (212.4746.92), Machine Learning Code Completion (212.4746.92), Copyright (212.4746.92), Images (212.4746.92), macOS Light Theme (212.4746.92), Windows 10 Light Theme (212.4746.92), JetBrains Marketplace Licensing Support (212.4746.92), Properties (212.4746.92), Gradle (212.4746.92), Mercurial (212.4746.92), WebP Support (212.4746.92), EditorConfig (212.4746.92), Emoji Picker (212.4746.92), Terminal (212.4746.92), Git (212.4746.92), ChangeReminder (212.4746.92), Shell Script (212.4746.92), TextMate Bundles (212.4746.92), YAML (212.4746.92), Settings Repository (212.4746.92), IDE Features Trainer (212.4746.92), IDE Features Trainer: Git Lessons (212.4746.92), Java (212.4746.92), Ant (212.4746.92), Bytecode Viewer (212.4746.92), JUnit (212.4746.92), Lombok (212.4746.92), Java Internationalization (212.4746.92), UI Designer (212.4746.92), Java IDE Customization (212.4746.92), Java Stream Debugger (212.4746.92), Eclipse Interoperability (212.4746.92), Java Bytecode Decompiler (212.4746.92), JavaFX (212.4746.92), Task Management (212.4746.92), Code With Me (212.4746.92), Shared Indexes (212.4746.92), IntelliLang (212.4746.92), Groovy (212.4746.92), Maven (212.4746.92), TestNG (212.4746.92), Code Coverage for Java (212.4746.92), Gradle-Java (212.4746.92), Gradle-Maven (212.4746.92), Plugin DevKit (212.4746.92), Markdown (212.4746.92), GitHub (212.4746.92), Grazie (212.4746.92), Kotlin (212-1.5.10-release-IJ4746.92), Space (212.4746.92), Package Search (212.4746.92), Gradle DSL API (212.4746.92), Android (10.4.2.212.4746.92), Gradle Dependency Updater Implementation (212.4746.92) 
+2021-08-06 21:02:53,848 [    510]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Nocalhost (1.0.0-212) 
+2021-08-06 21:02:54,003 [    665]   INFO -        #com.intellij.idea.Main - WM detected: GNOME Shell 
+2021-08-06 21:02:54,596 [   1258]   WARN - j.internal.DebugAttachDetector - Unable to start DebugAttachDetector, please add `--add-exports java.base/jdk.internal.vm=ALL-UNNAMED` to VM options 
+2021-08-06 21:02:54,639 [   1301]   INFO - ication.options.PathMacrosImpl - Loaded path macros: {MAVEN_REPOSITORY=/home/hxz/.m2/repository, KOTLIN_BUNDLED=/home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Kotlin/kotlinc} 
+2021-08-06 21:02:54,656 [   1318]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2021-08-06 21:02:54,666 [   1328]   INFO - lij.diagnostic.DebugLogManager - Set TRACE for the following categories: #com.jetbrains.rdserver.requests, #com.jetbrains.rd.ide.document, #com.jetbrains.rdserver.document, #com.jetbrains.rdserver.editors, #com.jetbrains.rdserver.actions, #com.jetbrains.rdserver.permissions 
+2021-08-06 21:02:54,687 [   1349]   INFO - intellij.diagnostic.JitWatcher - JIT compilation state checking enabled 
+2021-08-06 21:02:54,694 [   1356]   INFO - intellij.util.io.FilePageCache - lower=100; upper=492; buffer=10; max=492 
+2021-08-06 21:02:54,716 [   1378]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2021-08-06 21:02:54,886 [   1548]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2021-08-06 21:02:54,921 [   1583]   INFO - penapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, editor.reader.mode, new.large.text.file.viewer, wsl.fsd.content.loader, terminal.shell.command.handling 
+2021-08-06 21:02:55,062 [   1724]   INFO - impl.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty 
+2021-08-06 21:02:55,240 [   1902]   WARN - l.NotificationGroupManagerImpl - Notification group CodeWithMe is already registered (group=com.intellij.notification.NotificationGroup@581eb7c4). Plugin descriptor: PluginDescriptor(name=Code With Me, id=com.jetbrains.codeWithMe, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/cwm-plugin, version=212.4746.92, package=null) 
+2021-08-06 21:02:55,406 [   2068]   INFO - penapi.wm.impl.GlobalMenuLinux - Start glib main loop in thread: GlobalMenuLinux loop 
+2021-08-06 21:02:55,409 [   2071]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2021-08-06 21:02:55,516 [   2178]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/bin/linux/fsnotifier 
+2021-08-06 21:02:55,535 [   2197]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2021-08-06 21:02:55,682 [   2344]   INFO - leBasedIndexDataInitialization - Index data initialization done: 825 ms. Initialized indexes: [FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, xmlProperties, editorconfig.index.name, yaml.keys.name, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, ant-imports, LombokConfigIndex, com.intellij.uiDesigner.FormClassIndex, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, groovy.trait.fields, groovy.trait.methods, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME, BindingXmlIndex, MlModelFileIndex, NavXmlIndex]. 
+2021-08-06 21:02:55,714 [   2376]   INFO - exImpl$StubIndexInitialization - Index data initialization done: 31 ms. Initialized stub indexes: {gr.annot.method.name, java.anonymous.baseref, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex, gr.annot.members, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, gr.method.name, java.method.parameter.types, dom.namespaceKey, jvm.static.member.type, dom.elementClass, java.class.shortname, java.field.name, gr.anonymous.class, java.module.name, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, markdown.header, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, gr.class.super, properties.index, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, java.class.extlist, java.class.fqn, gr.script.fqn, gr.class.fqn, java.method.name, jvm.static.member.name, java.annotations, gr.field.name, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, gr.script.class, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex}. 
+2021-08-06 21:02:56,509 [   3171]   INFO - plication.impl.ApplicationImpl - LONG VFS PROCESSING. Topic=BulkFileListener, offender=class de.plushnikov.intellij.plugin.lombokconfig.LombokConfigChangeListener, message=before, time=505ms 
+2021-08-06 21:02:56,708 [   3370]   INFO - ar.ExperimentalToolbarSettings - Loading old state, main toolbar: false navBar true 
+2021-08-06 21:02:56,725 [   3387]   INFO - erver.followMe.FollowMeManager - Register new user 0:'hxz' with ClientId=ClientId(value=Host) 
+2021-08-06 21:03:17,678 [  24340]   INFO - BridgeArtifactManagerRedefiner - Using workspace model to open project 
+2021-08-06 21:03:17,744 [  24406]   INFO - dule.ModuleBridgeLoaderService - Workspace model loaded without cache. Loading real project state into workspace model. Thread[JobScheduler FJ pool 5/11,4,main] 
+2021-08-06 21:03:17,843 [  24505]   INFO - lij.diagnostic.DebugLogManager - Set TRACE for the following categories: #com.jetbrains.rdserver.requests, #com.jetbrains.rd.ide.document, #com.jetbrains.rdserver.document, #com.jetbrains.rdserver.editors, #com.jetbrains.rdserver.actions, #com.jetbrains.rdserver.permissions 
+2021-08-06 21:03:17,882 [  24544]   INFO - tests.impl.DistributedTestHost - Host address=localhost/127.0.0.1 
+2021-08-06 21:03:18,162 [  24824]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2021-08-06 21:03:18,164 [  24826]   INFO - ins.rd.platform.codeWithMe.a.a - sessionStatus: null 
+2021-08-06 21:03:18,164 [  24826]   INFO - ins.rd.platform.codeWithMe.a.a - freeSessionRemainingTimeMs: null null 
+2021-08-06 21:03:18,221 [  24883]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x60000d2 
+2021-08-06 21:03:18,534 [  25196]   WARN - com.intellij.util.xmlb.Binding - no accessors for dev.nocalhost.plugin.intellij.settings.data.ServiceProjectPath 
+2021-08-06 21:03:21,773 [  28435]   WARN - ctionSystem.impl.ActionUpdater - 2693 ms to expand group child CWMTelephonyGroup 
+2021-08-06 21:03:21,773 [  28435]   WARN - ctionSystem.impl.ActionUpdater - 2713 ms to expand group child CodeWithMeNavbarGroup 
+2021-08-06 21:03:22,554 [  29216]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 6 millis (read time: 1) 
+2021-08-06 21:03:22,706 [  29368]   INFO - erver.followMe.FollowMeManager - Register new user 0:'hxz' with ClientId=ClientId(value=Host) 
+2021-08-06 21:03:22,893 [  29555]   INFO - CompilerWorkspaceConfiguration - Available processors: 12 
+2021-08-06 21:03:22,947 [  29609]   INFO - ramework.util.RdCoroutineScope - RdCoroutineHost overridden 
+2021-08-06 21:03:23,973 [  30635]   WARN - ctionSystem.impl.ActionUpdater - 1593 ms to expand group child OpenFile 
+2021-08-06 21:03:24,516 [  31178]   INFO - ProjectRootPostStartUpActivity - /home/hxz/go/src/myproject/.idea case-sensitivity: expected=true actual=true 
+2021-08-06 21:03:25,751 [  32413]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: OnDiskSharedIndexChunkLocator 
+2021-08-06 21:03:25,752 [  32414]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: UnindexedFilesUpdater[myproject] 
+2021-08-06 21:03:25,890 [  32552]   INFO - ij.psi.search.LogFileTypeIndex - Loading file type index snapshot 
+2021-08-06 21:03:25,897 [  32559]   INFO - indexing.UnindexedFilesUpdater - Started indexing of myproject. Reason: On project open 
+2021-08-06 21:03:25,900 [  32562]   INFO - indexing.UnindexedFilesUpdater - Performing delayed pushing properties tasks for myproject took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-06 21:03:25,911 [  32573]   INFO - indexing.UnindexedFilesUpdater - Scanning of myproject uses 11 scanning threads 
+2021-08-06 21:03:26,020 [  32682]   INFO - indexing.UnindexedFilesUpdater - Scanning completed for myproject. Number of scanned files: 249; Number of files for indexing: 20 took 119ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-06 21:03:26,027 [  32689]   INFO - indexing.UnindexedFilesUpdater - Use 4 indexing threads for indexing of myproject 
+2021-08-06 21:03:26,312 [  32974]   INFO - indexing.UnindexedFilesUpdater - Finished for myproject. Unindexed files update took 289ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-06 21:03:26,312 [  32974]   INFO - ij.psi.search.LogFileTypeIndex - File type index snapshot dropped 
+2021-08-06 21:03:26,314 [  32976]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$PruneTask@28e157a4 
+2021-08-06 21:03:26,314 [  32976]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$ManageLruProjectFilesTask@76affc45 
+2021-08-06 21:03:26,534 [  33196]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2021-08-06 21:03:26,583 [  33245]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 4280ms; general responsiveness: ok; EDT responsiveness: 0/4 sluggish, 2/4 very slow 
+2021-08-06 21:03:26,619 [  33281]  DEBUG - BackendServerFileEditorManager - Opening host editor for /What's New in IntelliJ IDEA 
+2021-08-06 21:03:30,628 [  37290]   WARN - ctionSystem.impl.ActionUpdater - 2182 ms to expand group child TabList 
+2021-08-06 21:03:30,628 [  37290]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-06 21:03:30,668 [  37330]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=myproject, containerState=COMPONENT_CREATED, componentStore=/home/hxz/go/src/myproject) 
+2021-08-06 21:03:31,412 [  38074]   INFO - .services.SpaceKtsFileDetector - SpaceKtsFileDetector 
+2021-08-06 21:03:32,244 [  38906]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 14635 ms 
+2021-08-06 21:03:32,555 [  39217]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRegistry$PopulateCachesTask@2f18336c 
+2021-08-06 21:03:33,002 [  39664]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-06 21:03:33,004 [  39666]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=myproject, containerState=COMPONENT_CREATED, componentStore=/home/hxz/go/src/myproject) 
+2021-08-06 21:03:34,506 [  41168]   WARN - nSystem.impl.ActionToolbarImpl - Please do not use ActionPlaces.UNKNOWN or the empty place. Any string unique enough to deduce the toolbar location will do. 
+java.lang.Throwable: toolbar creation trace
+	at com.intellij.openapi.actionSystem.impl.ActionToolbarImpl.<init>(ActionToolbarImpl.java:112)
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.createActionToolbar(ActionManagerImpl.java:432)
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.createActionToolbar(ActionManagerImpl.java:426)
+	at com.android.tools.idea.common.error.IssuePanel.createToolbar(IssuePanel.java:244)
+	at com.android.tools.idea.common.error.IssuePanel.createTitlePanel(IssuePanel.java:255)
+	at com.android.tools.idea.common.error.IssuePanel.<init>(IssuePanel.java:124)
+	at com.android.tools.idea.common.surface.DesignSurface.<init>(DesignSurface.java:328)
+	at com.android.tools.idea.uibuilder.surface.NlDesignSurface.<init>(NlDesignSurface.java:398)
+	at com.android.tools.idea.uibuilder.surface.NlDesignSurface$Builder.build(NlDesignSurface.java:327)
+	at com.android.tools.idea.uibuilder.visual.VisualizationForm.<init>(VisualizationForm.java:151)
+	at com.android.tools.idea.uibuilder.visual.VisualizationManager.createPreviewForm(VisualizationManager.java:118)
+	at com.android.tools.idea.uibuilder.visual.VisualizationManager.initToolWindow(VisualizationManager.java:125)
+	at com.android.tools.idea.uibuilder.visual.VisualizationManager$2.run(VisualizationManager.java:268)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:333)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:323)
+	at com.intellij.util.ui.update.MergingUpdateQueue.lambda$flush$1(MergingUpdateQueue.java:273)
+	at com.intellij.util.ui.EdtInvocationManager.invokeAndWaitIfNeeded(EdtInvocationManager.java:148)
+	at com.intellij.util.ui.UIUtil.invokeAndWaitIfNeeded(UIUtil.java:2199)
+	at com.intellij.util.ui.update.MergingUpdateQueue.flush(MergingUpdateQueue.java:284)
+	at com.intellij.util.ui.update.MergingUpdateQueue.run(MergingUpdateQueue.java:242)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:240)
+	at com.intellij.util.Alarm$Request.runSafely(Alarm.java:391)
+	at com.intellij.util.Alarm$Request.run(Alarm.java:377)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:220)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:214)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$200(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:196)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:794)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLater$4(ApplicationImpl.java:350)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:84)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:133)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:46)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:189)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:886)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:755)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:442)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:825)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:441)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:794)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:487)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2021-08-06 21:03:34,661 [  41323]   WARN - ctionSystem.impl.ActionUpdater - 1300 ms to expand group child CWMTelephonyGroup 
+2021-08-06 21:03:34,661 [  41323]   WARN - ctionSystem.impl.ActionUpdater - 1274 ms to expand group child TabList 
+2021-08-06 21:03:34,712 [  41374]   WARN - ctionSystem.impl.ActionUpdater - 1351 ms to expand group child CodeWithMeNavbarGroup 
+2021-08-06 21:03:34,942 [  41604]   INFO - m.codeWithMe.CodeWithMeCleanup - running activity to cleanup old thin clients... Root path is '/home/hxz/.cache/JetBrains' 
+2021-08-06 21:03:34,943 [  41605]   INFO - m.codeWithMe.CodeWithMeCleanup - found 0 Code With Me client system folders to check 
+2021-08-06 21:03:34,943 [  41605]   INFO - m.codeWithMe.CodeWithMeCleanup - found 0 Code With Me client config folders to check 
+2021-08-06 21:03:34,973 [  41635]   INFO - m.codeWithMe.CodeWithMeCleanup - keep only [] major versions 
+2021-08-06 21:05:54,668 [ 181330]   INFO - j.compiler.server.BuildManager - Clearing project build data because the project does not exist or was not opened for more than 30 days: /home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/compile-server/myproject_73d68d17 
+2021-08-06 21:08:53,569 [ 360231]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2021-08-06 21:08:53,619 [ 360281]   INFO - tellij.psi.stubs.StubIndexImpl - StubIndexExtension-s were unloaded 
+2021-08-06 21:08:53,694 [ 360356]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2021-08-06 21:08:53,696 [ 360358]   INFO - stubs.SerializationManagerImpl - Start shutting down /home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/index/rep.names 
+2021-08-06 21:08:53,696 [ 360358]   INFO - stubs.SerializationManagerImpl - Finished shutting down /home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/index/rep.names 
+2021-08-06 21:08:53,696 [ 360358]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2021-08-06 21:08:53,697 [ 360359]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2021-08-06 21:08:53,697 [ 360359]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2021-08-06 21:08:53,698 [ 360360]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-08-06 21:09:17,446 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-08-06 21:09:17,478 [     32]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-212.4746.92, 27 Jul 2021 15:08) 
+2021-08-06 21:09:17,481 [     35]   INFO -        #com.intellij.idea.Main - OS: Linux (5.11.0-25-generic, amd64) 
+2021-08-06 21:09:17,490 [     44]   INFO -        #com.intellij.idea.Main - JRE: 11.0.11+9-b1504.13 (JetBrains s.r.o.) 
+2021-08-06 21:09:17,490 [     44]   INFO -        #com.intellij.idea.Main - JVM: 11.0.11+9-b1504.13 (OpenJDK 64-Bit Server VM) 
+2021-08-06 21:09:17,491 [     45]   INFO -        #com.intellij.idea.Main - JVM Args: -Didea.auto.reload.plugins=true -Didea.classpath.index.enabled=false -Didea.config.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/config -Didea.is.internal=true -Didea.platform.prefix=Idea -Didea.plugins.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins -Didea.system.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system -Dsun.awt.disablegrab=true -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:43941 -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -ea 
+2021-08-06 21:09:17,491 [     45]   INFO -        #com.intellij.idea.Main - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib 
+2021-08-06 21:09:17,492 [     46]   INFO -        #com.intellij.idea.Main - boot library path: /home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr_jcef-11_0_11-linux-x64-b1504.13/jbr/lib 
+2021-08-06 21:09:17,541 [     95]   INFO -        #com.intellij.idea.Main - locale=zh_CN JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/config
+  idea.system.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system
+  idea.plugins.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins
+  idea.log.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/log 
+2021-08-06 21:09:17,551 [    105]   INFO -        #com.intellij.idea.Main - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@36d67c7f[Running, parallelism = 11, size = 8, active = 4, running = 4, steals = 3, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@4253001a 
+2021-08-06 21:09:17,575 [    129]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 24 ms 
+2021-08-06 21:09:17,616 [    170]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=PHP, id=com.jetbrains.php, descriptorPath=plugin.xml, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/php, version=212.4746.92, package=null) misses optional descriptor php-shared-indexes.xml 
+2021-08-06 21:09:17,638 [    192]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Groovy, version=212.4746.92, package=org.jetbrains.plugins.groovy) misses optional descriptor duplicates-groovy.xml 
+2021-08-06 21:09:17,639 [    193]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Groovy, version=212.4746.92, package=org.jetbrains.plugins.groovy) misses optional descriptor duplicates-detection-groovy.xml 
+2021-08-06 21:09:17,883 [    437]   WARN - llij.ide.plugins.PluginManager - Problems found loading plugins:
+  The PHP (id=com.jetbrains.php, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/php, version=212.4746.92) plugin Plugin 'PHP' requires plugin 'com.intellij.modules.php-capable' to be installed
+  The Go (id=org.jetbrains.plugins.go, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/go, version=212.4746.92) plugin Plugin 'Go' requires plugin 'com.intellij.modules.go-capable' to be installed 
+2021-08-06 21:09:17,894 [    448]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE (212.4746.92), Configuration Script (212.4746.92), Dependency Management Api for External Build Tools (212.4746.92), JetBrains maven model api classes (212.4746.92), JetBrains Repository Search (212.4746.92), WSL File System Support (212.4746.92), Perforce Helix Core (212.4746.92), Subversion (212.4746.92), XPathView + XSLT (212.4746.92), XSLT Debugger (212.4746.92), Smali Support (212.4746.92), Machine Learning Code Completion (212.4746.92), Copyright (212.4746.92), Images (212.4746.92), macOS Light Theme (212.4746.92), Windows 10 Light Theme (212.4746.92), JetBrains Marketplace Licensing Support (212.4746.92), Properties (212.4746.92), Gradle (212.4746.92), Mercurial (212.4746.92), WebP Support (212.4746.92), EditorConfig (212.4746.92), Emoji Picker (212.4746.92), Terminal (212.4746.92), Git (212.4746.92), ChangeReminder (212.4746.92), Shell Script (212.4746.92), TextMate Bundles (212.4746.92), YAML (212.4746.92), Settings Repository (212.4746.92), IDE Features Trainer (212.4746.92), IDE Features Trainer: Git Lessons (212.4746.92), Java (212.4746.92), Ant (212.4746.92), Bytecode Viewer (212.4746.92), JUnit (212.4746.92), Lombok (212.4746.92), Java Internationalization (212.4746.92), UI Designer (212.4746.92), Java IDE Customization (212.4746.92), Java Stream Debugger (212.4746.92), Eclipse Interoperability (212.4746.92), Java Bytecode Decompiler (212.4746.92), JavaFX (212.4746.92), Task Management (212.4746.92), Code With Me (212.4746.92), Shared Indexes (212.4746.92), IntelliLang (212.4746.92), Groovy (212.4746.92), Maven (212.4746.92), TestNG (212.4746.92), Code Coverage for Java (212.4746.92), Gradle-Java (212.4746.92), Gradle-Maven (212.4746.92), Plugin DevKit (212.4746.92), Markdown (212.4746.92), GitHub (212.4746.92), Grazie (212.4746.92), Kotlin (212-1.5.10-release-IJ4746.92), Space (212.4746.92), Package Search (212.4746.92), Gradle DSL API (212.4746.92), Android (10.4.2.212.4746.92), Gradle Dependency Updater Implementation (212.4746.92) 
+2021-08-06 21:09:17,894 [    448]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Nocalhost (1.0.0-212) 
+2021-08-06 21:09:18,249 [    803]   INFO -        #com.intellij.idea.Main - WM detected: GNOME Shell 
+2021-08-06 21:09:18,852 [   1406]   WARN - j.internal.DebugAttachDetector - Unable to start DebugAttachDetector, please add `--add-exports java.base/jdk.internal.vm=ALL-UNNAMED` to VM options 
+2021-08-06 21:09:18,903 [   1457]   INFO - ication.options.PathMacrosImpl - Loaded path macros: {MAVEN_REPOSITORY=/home/hxz/.m2/repository, KOTLIN_BUNDLED=/home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Kotlin/kotlinc} 
+2021-08-06 21:09:18,910 [   1464]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2021-08-06 21:09:18,932 [   1486]   INFO - lij.diagnostic.DebugLogManager - Set TRACE for the following categories: #com.jetbrains.rdserver.requests, #com.jetbrains.rd.ide.document, #com.jetbrains.rdserver.document, #com.jetbrains.rdserver.editors, #com.jetbrains.rdserver.actions, #com.jetbrains.rdserver.permissions 
+2021-08-06 21:09:18,935 [   1489]   INFO - intellij.diagnostic.JitWatcher - JIT compilation state checking enabled 
+2021-08-06 21:09:18,985 [   1539]   INFO - intellij.util.io.FilePageCache - lower=100; upper=492; buffer=10; max=492 
+2021-08-06 21:09:19,091 [   1645]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2021-08-06 21:09:19,251 [   1805]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2021-08-06 21:09:19,273 [   1827]   INFO - penapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, editor.reader.mode, new.large.text.file.viewer, wsl.fsd.content.loader, terminal.shell.command.handling 
+2021-08-06 21:09:19,407 [   1961]   INFO - impl.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty 
+2021-08-06 21:09:19,564 [   2118]   WARN - l.NotificationGroupManagerImpl - Notification group CodeWithMe is already registered (group=com.intellij.notification.NotificationGroup@6250c37f). Plugin descriptor: PluginDescriptor(name=Code With Me, id=com.jetbrains.codeWithMe, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/cwm-plugin, version=212.4746.92, package=null) 
+2021-08-06 21:09:19,726 [   2280]   INFO - penapi.wm.impl.GlobalMenuLinux - Start glib main loop in thread: GlobalMenuLinux loop 
+2021-08-06 21:09:19,728 [   2282]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2021-08-06 21:09:19,831 [   2385]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/bin/linux/fsnotifier 
+2021-08-06 21:09:19,842 [   2396]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2021-08-06 21:09:20,002 [   2556]   INFO - leBasedIndexDataInitialization - Index data initialization done: 795 ms. Initialized indexes: [FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, xmlProperties, editorconfig.index.name, yaml.keys.name, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, ant-imports, LombokConfigIndex, com.intellij.uiDesigner.FormClassIndex, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, groovy.trait.fields, groovy.trait.methods, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME, BindingXmlIndex, MlModelFileIndex, NavXmlIndex]. 
+2021-08-06 21:09:20,050 [   2604]   INFO - exImpl$StubIndexInitialization - Index data initialization done: 47 ms. Initialized stub indexes: {gr.annot.method.name, java.anonymous.baseref, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex, gr.annot.members, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, gr.method.name, java.method.parameter.types, dom.namespaceKey, jvm.static.member.type, dom.elementClass, java.class.shortname, java.field.name, gr.anonymous.class, java.module.name, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, markdown.header, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, gr.class.super, properties.index, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, java.class.extlist, java.class.fqn, gr.script.fqn, gr.class.fqn, java.method.name, jvm.static.member.name, java.annotations, gr.field.name, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, gr.script.class, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex}. 
+2021-08-06 21:09:20,514 [   3068]   INFO - plication.impl.ApplicationImpl - LONG VFS PROCESSING. Topic=BulkFileListener, offender=class de.plushnikov.intellij.plugin.lombokconfig.LombokConfigChangeListener, message=before, time=275ms 
+2021-08-06 21:09:22,709 [   5263]   INFO - erver.followMe.FollowMeManager - Register new user 0:'hxz' with ClientId=ClientId(value=Host) 
+2021-08-06 21:09:22,916 [   5470]   INFO - ar.ExperimentalToolbarSettings - Loading old state, main toolbar: false navBar true 
+2021-08-06 21:09:45,687 [  28241]   INFO - BridgeArtifactManagerRedefiner - Using workspace model to open project 
+2021-08-06 21:09:45,718 [  28272]   INFO - lij.diagnostic.DebugLogManager - Set TRACE for the following categories: #com.jetbrains.rdserver.requests, #com.jetbrains.rd.ide.document, #com.jetbrains.rdserver.document, #com.jetbrains.rdserver.editors, #com.jetbrains.rdserver.actions, #com.jetbrains.rdserver.permissions 
+2021-08-06 21:09:45,732 [  28286]   INFO - tests.impl.DistributedTestHost - Host address=localhost/127.0.0.1 
+2021-08-06 21:09:45,822 [  28376]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2021-08-06 21:09:45,896 [  28450]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x60000ed 
+2021-08-06 21:09:45,985 [  28539]   INFO - el.ide.impl.WorkspaceModelImpl - Load workspace model from cache in 252 ms 
+2021-08-06 21:09:46,027 [  28581]   INFO - ins.rd.platform.codeWithMe.a.a - sessionStatus: null 
+2021-08-06 21:09:46,028 [  28582]   INFO - ins.rd.platform.codeWithMe.a.a - freeSessionRemainingTimeMs: null null 
+2021-08-06 21:09:46,192 [  28746]   WARN - com.intellij.util.xmlb.Binding - no accessors for dev.nocalhost.plugin.intellij.settings.data.ServiceProjectPath 
+2021-08-06 21:09:47,037 [  29591]   INFO - erver.followMe.FollowMeManager - Register new user 0:'hxz' with ClientId=ClientId(value=Host) 
+2021-08-06 21:09:47,210 [  29764]   INFO - ion.DelayedProjectSynchronizer - Workspace model loaded from cache. Syncing real project state into workspace model in 262 ms. Thread[JobScheduler FJ pool 6/11,4,main] 
+2021-08-06 21:09:47,249 [  29803]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: OnDiskSharedIndexChunkLocator 
+2021-08-06 21:09:47,250 [  29804]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: UnindexedFilesUpdater[myproject] 
+2021-08-06 21:09:47,320 [  29874]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 5 millis (read time: 1) 
+2021-08-06 21:09:47,350 [  29904]   INFO - ij.psi.search.LogFileTypeIndex - Loading file type index snapshot 
+2021-08-06 21:09:47,357 [  29911]   INFO - indexing.UnindexedFilesUpdater - Started indexing of myproject. Reason: On project open 
+2021-08-06 21:09:47,363 [  29917]   INFO - indexing.UnindexedFilesUpdater - Performing delayed pushing properties tasks for myproject took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-06 21:09:47,385 [  29939]   INFO - indexing.UnindexedFilesUpdater - Scanning of myproject uses 11 scanning threads 
+2021-08-06 21:09:47,399 [  29953]   INFO - ramework.util.RdCoroutineScope - RdCoroutineHost overridden 
+2021-08-06 21:09:47,539 [  30093]   INFO - ProjectRootPostStartUpActivity - /home/hxz/go/src/myproject/.idea case-sensitivity: expected=true actual=true 
+2021-08-06 21:09:47,558 [  30112]   INFO - indexing.UnindexedFilesUpdater - Scanning completed for myproject. Number of scanned files: 249; Number of files for indexing: 0 took 195ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-06 21:09:47,561 [  30115]   INFO - indexing.UnindexedFilesUpdater - Finished for myproject. No files to index with loading content. 
+2021-08-06 21:09:47,562 [  30116]   INFO - ij.psi.search.LogFileTypeIndex - File type index snapshot dropped 
+2021-08-06 21:09:47,564 [  30118]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$PruneTask@44221264 
+2021-08-06 21:09:47,565 [  30119]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$ManageLruProjectFilesTask@799404b3 
+2021-08-06 21:09:48,848 [  31402]   INFO - CompilerWorkspaceConfiguration - Available processors: 12 
+2021-08-06 21:09:50,088 [  32642]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2021-08-06 21:09:50,119 [  32673]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 3210ms; general responsiveness: ok; EDT responsiveness: 1/4 sluggish 
+2021-08-06 21:09:50,135 [  32689]  DEBUG - BackendServerFileEditorManager - Opening host editor for /What's New in IntelliJ IDEA 
+2021-08-06 21:09:50,339 [  32893]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-06 21:09:50,347 [  32901]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=myproject, containerState=COMPONENT_CREATED, componentStore=/home/hxz/go/src/myproject) 
+2021-08-06 21:09:50,643 [  33197]   INFO - .services.SpaceKtsFileDetector - SpaceKtsFileDetector 
+2021-08-06 21:09:50,673 [  33227]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 4999 ms 
+2021-08-06 21:09:50,701 [  33255]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRegistry$PopulateCachesTask@4a571e32 
+2021-08-06 21:09:50,724 [  33278]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-06 21:09:50,734 [  33288]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=myproject, containerState=COMPONENT_CREATED, componentStore=/home/hxz/go/src/myproject) 
+2021-08-06 21:09:50,911 [  33465]   WARN - nSystem.impl.ActionToolbarImpl - Please do not use ActionPlaces.UNKNOWN or the empty place. Any string unique enough to deduce the toolbar location will do. 
+java.lang.Throwable: toolbar creation trace
+	at com.intellij.openapi.actionSystem.impl.ActionToolbarImpl.<init>(ActionToolbarImpl.java:112)
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.createActionToolbar(ActionManagerImpl.java:432)
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.createActionToolbar(ActionManagerImpl.java:426)
+	at com.android.tools.idea.common.error.IssuePanel.createToolbar(IssuePanel.java:244)
+	at com.android.tools.idea.common.error.IssuePanel.createTitlePanel(IssuePanel.java:255)
+	at com.android.tools.idea.common.error.IssuePanel.<init>(IssuePanel.java:124)
+	at com.android.tools.idea.common.surface.DesignSurface.<init>(DesignSurface.java:328)
+	at com.android.tools.idea.uibuilder.surface.NlDesignSurface.<init>(NlDesignSurface.java:398)
+	at com.android.tools.idea.uibuilder.surface.NlDesignSurface$Builder.build(NlDesignSurface.java:327)
+	at com.android.tools.idea.uibuilder.visual.VisualizationForm.<init>(VisualizationForm.java:151)
+	at com.android.tools.idea.uibuilder.visual.VisualizationManager.createPreviewForm(VisualizationManager.java:118)
+	at com.android.tools.idea.uibuilder.visual.VisualizationManager.initToolWindow(VisualizationManager.java:125)
+	at com.android.tools.idea.uibuilder.visual.VisualizationManager$2.run(VisualizationManager.java:268)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:333)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:323)
+	at com.intellij.util.ui.update.MergingUpdateQueue.lambda$flush$1(MergingUpdateQueue.java:273)
+	at com.intellij.util.ui.EdtInvocationManager.invokeAndWaitIfNeeded(EdtInvocationManager.java:148)
+	at com.intellij.util.ui.UIUtil.invokeAndWaitIfNeeded(UIUtil.java:2199)
+	at com.intellij.util.ui.update.MergingUpdateQueue.flush(MergingUpdateQueue.java:284)
+	at com.intellij.util.ui.update.MergingUpdateQueue.run(MergingUpdateQueue.java:242)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:240)
+	at com.intellij.util.Alarm$Request.runSafely(Alarm.java:391)
+	at com.intellij.util.Alarm$Request.run(Alarm.java:377)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:220)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:214)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$200(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:196)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:794)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLater$4(ApplicationImpl.java:350)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:84)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:133)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:46)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:189)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:886)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:755)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:442)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:825)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:441)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:794)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:487)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2021-08-06 21:09:54,143 [  36697]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 13 ms 
+2021-08-06 21:09:57,592 [  40146]   INFO - m.codeWithMe.CodeWithMeCleanup - running activity to cleanup old thin clients... Root path is '/home/hxz/.cache/JetBrains' 
+2021-08-06 21:09:57,592 [  40146]   INFO - m.codeWithMe.CodeWithMeCleanup - found 0 Code With Me client system folders to check 
+2021-08-06 21:09:57,593 [  40147]   INFO - m.codeWithMe.CodeWithMeCleanup - found 0 Code With Me client config folders to check 
+2021-08-06 21:09:57,594 [  40148]   INFO - m.codeWithMe.CodeWithMeCleanup - keep only [] major versions 
+2021-08-06 21:12:18,929 [ 181483]   INFO - j.compiler.server.BuildManager - Clearing project build data because the project does not exist or was not opened for more than 30 days: /home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/compile-server/myproject_73d68d17 
+2021-08-06 21:24:52,084 [ 934638]   INFO - ectsystem.ProjectSystemService - DefaultProjectSystem project system has been detected 
+2021-08-06 21:45:12,616 [2155170]   INFO - rationStore.ComponentStoreImpl - Saving appDiffSettings took 25 ms 
+2021-08-06 21:45:12,980 [2155534]   INFO - rationStore.ComponentStoreImpl - Saving Project(name=myproject, containerState=COMPONENT_CREATED, componentStore=/home/hxz/go/src/myproject)ProjectView took 37 ms, XDebuggerManager took 12 ms 
+2021-08-06 21:45:27,851 [2170405]   INFO - oader.EventLogExternalUploader - Started external process for uploading event log 
+2021-08-06 21:45:28,039 [2170593]   INFO - erver.followMe.FollowMeManager - Unregister user 0:'hxz' with ClientId=ClientId(value=Host) 
+2021-08-06 21:45:28,091 [2170645]   INFO - ramework.util.RdCoroutineScope - RdCoroutineHost has been reset 
+2021-08-06 21:45:28,112 [2170666]   INFO - ramework.util.RdCoroutineScope - RdCoroutineHost disposed 
+2021-08-06 21:45:28,127 [2170681]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-08-06 21:45:28,129 [2170683]   INFO - erver.followMe.FollowMeManager - Unregister user 0:'hxz' with ClientId=ClientId(value=Host) 
+2021-08-06 21:45:28,129 [2170683]   INFO - .impl.FileTypeDetectionService - 7 auto-detected files. Detection took 76 ms 
+2021-08-06 21:45:28,131 [2170685]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2021-08-06 21:45:28,145 [2170699]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2021-08-06 21:45:28,173 [2170727]   INFO - tellij.psi.stubs.StubIndexImpl - StubIndexExtension-s were unloaded 
+2021-08-06 21:45:28,228 [2170782]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2021-08-06 21:45:28,228 [2170782]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2021-08-06 21:45:28,229 [2170783]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2021-08-06 21:45:28,229 [2170783]   INFO - stubs.SerializationManagerImpl - Start shutting down /home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/index/rep.names 
+2021-08-06 21:45:28,230 [2170784]   INFO - stubs.SerializationManagerImpl - Finished shutting down /home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/index/rep.names 
+2021-08-06 21:45:28,336 [2170890]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2021-08-06 21:45:28,337 [2170891]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-08-06 21:59:22,771 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-08-06 21:59:22,804 [     33]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-212.4746.92, 27 Jul 2021 15:08) 
+2021-08-06 21:59:22,807 [     36]   INFO -        #com.intellij.idea.Main - OS: Linux (5.11.0-25-generic, amd64) 
+2021-08-06 21:59:22,814 [     43]   INFO -        #com.intellij.idea.Main - JRE: 11.0.11+9-b1504.13 (JetBrains s.r.o.) 
+2021-08-06 21:59:22,814 [     43]   INFO -        #com.intellij.idea.Main - JVM: 11.0.11+9-b1504.13 (OpenJDK 64-Bit Server VM) 
+2021-08-06 21:59:22,815 [     44]   INFO -        #com.intellij.idea.Main - JVM Args: -Didea.auto.reload.plugins=true -Didea.classpath.index.enabled=false -Didea.config.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/config -Didea.is.internal=true -Didea.platform.prefix=Idea -Didea.plugins.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins -Didea.system.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system -Dsun.awt.disablegrab=true -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -ea 
+2021-08-06 21:59:22,815 [     44]   INFO -        #com.intellij.idea.Main - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib 
+2021-08-06 21:59:22,815 [     44]   INFO -        #com.intellij.idea.Main - boot library path: /home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr_jcef-11_0_11-linux-x64-b1504.13/jbr/lib 
+2021-08-06 21:59:22,850 [     79]   INFO -        #com.intellij.idea.Main - locale=zh_CN JNU=UTF-8 file.encoding=UTF-8
+  idea.config.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/config
+  idea.system.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system
+  idea.plugins.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins
+  idea.log.path=/home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/log 
+2021-08-06 21:59:22,856 [     85]   INFO -        #com.intellij.idea.Main - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@3525d16f[Running, parallelism = 11, size = 8, active = 4, running = 4, steals = 3, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@2b0fb227 
+2021-08-06 21:59:22,881 [    110]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 24 ms 
+2021-08-06 21:59:22,928 [    157]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=PHP, id=com.jetbrains.php, descriptorPath=plugin.xml, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/php, version=212.4746.92, package=null) misses optional descriptor php-shared-indexes.xml 
+2021-08-06 21:59:22,951 [    180]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Groovy, version=212.4746.92, package=org.jetbrains.plugins.groovy) misses optional descriptor duplicates-groovy.xml 
+2021-08-06 21:59:22,951 [    180]   INFO - llij.ide.plugins.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Groovy, version=212.4746.92, package=org.jetbrains.plugins.groovy) misses optional descriptor duplicates-detection-groovy.xml 
+2021-08-06 21:59:23,190 [    419]   WARN - llij.ide.plugins.PluginManager - Problems found loading plugins:
+  The PHP (id=com.jetbrains.php, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/php, version=212.4746.92) plugin Plugin 'PHP' requires plugin 'com.intellij.modules.php-capable' to be installed
+  The Go (id=org.jetbrains.plugins.go, path=~/java/nocalhost-intellij-plugin/build/idea-sandbox/plugins/go, version=212.4746.92) plugin Plugin 'Go' requires plugin 'com.intellij.modules.go-capable' to be installed 
+2021-08-06 21:59:23,198 [    427]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: IDEA CORE (212.4746.92), Configuration Script (212.4746.92), Dependency Management Api for External Build Tools (212.4746.92), JetBrains maven model api classes (212.4746.92), JetBrains Repository Search (212.4746.92), WSL File System Support (212.4746.92), Perforce Helix Core (212.4746.92), Subversion (212.4746.92), XPathView + XSLT (212.4746.92), XSLT Debugger (212.4746.92), Smali Support (212.4746.92), Machine Learning Code Completion (212.4746.92), Copyright (212.4746.92), Images (212.4746.92), macOS Light Theme (212.4746.92), Windows 10 Light Theme (212.4746.92), JetBrains Marketplace Licensing Support (212.4746.92), Properties (212.4746.92), Gradle (212.4746.92), Mercurial (212.4746.92), WebP Support (212.4746.92), EditorConfig (212.4746.92), Emoji Picker (212.4746.92), Terminal (212.4746.92), Git (212.4746.92), ChangeReminder (212.4746.92), Shell Script (212.4746.92), TextMate Bundles (212.4746.92), YAML (212.4746.92), Settings Repository (212.4746.92), IDE Features Trainer (212.4746.92), IDE Features Trainer: Git Lessons (212.4746.92), Java (212.4746.92), Ant (212.4746.92), Bytecode Viewer (212.4746.92), JUnit (212.4746.92), Lombok (212.4746.92), Java Internationalization (212.4746.92), UI Designer (212.4746.92), Java IDE Customization (212.4746.92), Java Stream Debugger (212.4746.92), Eclipse Interoperability (212.4746.92), Java Bytecode Decompiler (212.4746.92), JavaFX (212.4746.92), Task Management (212.4746.92), Code With Me (212.4746.92), Shared Indexes (212.4746.92), IntelliLang (212.4746.92), Groovy (212.4746.92), Maven (212.4746.92), TestNG (212.4746.92), Code Coverage for Java (212.4746.92), Gradle-Java (212.4746.92), Gradle-Maven (212.4746.92), Plugin DevKit (212.4746.92), Markdown (212.4746.92), GitHub (212.4746.92), Grazie (212.4746.92), Kotlin (212-1.5.10-release-IJ4746.92), Space (212.4746.92), Package Search (212.4746.92), Gradle DSL API (212.4746.92), Android (10.4.2.212.4746.92), Gradle Dependency Updater Implementation (212.4746.92) 
+2021-08-06 21:59:23,198 [    427]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Nocalhost (1.0.0-212) 
+2021-08-06 21:59:23,431 [    660]   INFO -        #com.intellij.idea.Main - WM detected: GNOME Shell 
+2021-08-06 21:59:24,064 [   1293]   WARN - j.internal.DebugAttachDetector - Unable to start DebugAttachDetector, please add `--add-exports java.base/jdk.internal.vm=ALL-UNNAMED` to VM options 
+2021-08-06 21:59:24,076 [   1305]   INFO - ication.options.PathMacrosImpl - Loaded path macros: {MAVEN_REPOSITORY=/home/hxz/.m2/repository, KOTLIN_BUNDLED=/home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/Kotlin/kotlinc} 
+2021-08-06 21:59:24,085 [   1314]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63343 
+2021-08-06 21:59:24,118 [   1347]   INFO - lij.diagnostic.DebugLogManager - Set TRACE for the following categories: #com.jetbrains.rdserver.requests, #com.jetbrains.rd.ide.document, #com.jetbrains.rdserver.document, #com.jetbrains.rdserver.editors, #com.jetbrains.rdserver.actions, #com.jetbrains.rdserver.permissions 
+2021-08-06 21:59:24,128 [   1357]   INFO - intellij.diagnostic.JitWatcher - JIT compilation state checking enabled 
+2021-08-06 21:59:24,132 [   1361]   INFO - intellij.util.io.FilePageCache - lower=100; upper=492; buffer=10; max=492 
+2021-08-06 21:59:24,153 [   1382]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2021-08-06 21:59:24,347 [   1576]   INFO - penapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, editor.reader.mode, new.large.text.file.viewer, wsl.fsd.content.loader, terminal.shell.command.handling 
+2021-08-06 21:59:24,410 [   1639]   INFO - BridgeArtifactManagerRedefiner - Using workspace model to open project 
+2021-08-06 21:59:24,432 [   1661]   INFO - penapi.wm.impl.GlobalMenuLinux - Start glib main loop in thread: GlobalMenuLinux loop 
+2021-08-06 21:59:24,435 [   1664]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2021-08-06 21:59:24,475 [   1704]   INFO - lij.diagnostic.DebugLogManager - Set TRACE for the following categories: #com.jetbrains.rdserver.requests, #com.jetbrains.rd.ide.document, #com.jetbrains.rdserver.document, #com.jetbrains.rdserver.editors, #com.jetbrains.rdserver.actions, #com.jetbrains.rdserver.permissions 
+2021-08-06 21:59:24,498 [   1727]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/hxz/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/bin/linux/fsnotifier 
+2021-08-06 21:59:24,516 [   1745]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2021-08-06 21:59:24,516 [   1745]   INFO - impl.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty 
+2021-08-06 21:59:24,533 [   1762]   INFO - tests.impl.DistributedTestHost - Host address=localhost/127.0.0.1 
+2021-08-06 21:59:24,707 [   1936]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2021-08-06 21:59:24,726 [   1955]   WARN - l.NotificationGroupManagerImpl - Notification group CodeWithMe is already registered (group=com.intellij.notification.NotificationGroup@70bf4904). Plugin descriptor: PluginDescriptor(name=Code With Me, id=com.jetbrains.codeWithMe, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.2/b0727ceddea2b62b16825db9308e14a470198e7f/ideaIC-2021.2/plugins/cwm-plugin, version=212.4746.92, package=null) 
+2021-08-06 21:59:24,736 [   1965]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x600002e 
+2021-08-06 21:59:24,911 [   2140]   INFO - el.ide.impl.WorkspaceModelImpl - Load workspace model from cache in 395 ms 
+2021-08-06 21:59:24,979 [   2208]   INFO - ins.rd.platform.codeWithMe.a.a - sessionStatus: null 
+2021-08-06 21:59:24,980 [   2209]   INFO - ins.rd.platform.codeWithMe.a.a - freeSessionRemainingTimeMs: null null 
+2021-08-06 21:59:25,161 [   2390]   INFO - leBasedIndexDataInitialization - Index data initialization done: 857 ms. Initialized indexes: [FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Stubs, Trigram.Index, fileIncludes, DomFileIndex, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, html5.custom.attributes.index, SchemaTypeInheritance, json.file.root.values, XsltSymbolIndex, xmlProperties, editorconfig.index.name, yaml.keys.name, bytecodeAnalysis, java.auto.module.name, java.source.module.name, java.null.method.argument, java.fun.expression, java.binary.plus.expression, ant-imports, LombokConfigIndex, com.intellij.uiDesigner.FormClassIndex, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, groovy.trait.fields, groovy.trait.methods, IdeaPluginRegistrationIndex, PluginIdModuleIndex, PluginIdDependenciesIndex, devkit.ExtensionPointIndex, devkit.ExtensionPointClassIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME, BindingXmlIndex, MlModelFileIndex, NavXmlIndex]. 
+2021-08-06 21:59:25,199 [   2428]   INFO - exImpl$StubIndexInitialization - Index data initialization done: 38 ms. Initialized stub indexes: {gr.annot.method.name, java.anonymous.baseref, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex, gr.annot.members, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, gr.method.name, java.method.parameter.types, dom.namespaceKey, jvm.static.member.type, dom.elementClass, java.class.shortname, java.field.name, gr.anonymous.class, java.module.name, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, markdown.header, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, gr.class.super, properties.index, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, java.class.extlist, java.class.fqn, gr.script.fqn, gr.class.fqn, java.method.name, jvm.static.member.name, java.annotations, gr.field.name, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, gr.script.class, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex}. 
+2021-08-06 21:59:25,316 [   2545]   INFO - ar.ExperimentalToolbarSettings - Loading old state, main toolbar: false navBar true 
+2021-08-06 21:59:25,428 [   2657]   WARN - com.intellij.util.xmlb.Binding - no accessors for dev.nocalhost.plugin.intellij.settings.data.ServiceProjectPath 
+2021-08-06 21:59:26,341 [   3570]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2021-08-06 21:59:26,769 [   3998]   INFO - erver.followMe.FollowMeManager - Register new user 0:'hxz' with ClientId=ClientId(value=Host) 
+2021-08-06 21:59:27,137 [   4366]   INFO - ion.DelayedProjectSynchronizer - Workspace model loaded from cache. Syncing real project state into workspace model in 780 ms. Thread[JobScheduler FJ pool 4/11,4,main] 
+2021-08-06 21:59:27,230 [   4459]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: OnDiskSharedIndexChunkLocator 
+2021-08-06 21:59:27,233 [   4462]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: UnindexedFilesUpdater[myproject] 
+2021-08-06 21:59:27,240 [   4469]   INFO - ij.psi.search.LogFileTypeIndex - Loading file type index snapshot 
+2021-08-06 21:59:27,251 [   4480]   INFO - indexing.UnindexedFilesUpdater - Started indexing of myproject. Reason: On project open 
+2021-08-06 21:59:27,253 [   4482]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 5 millis (read time: 1) 
+2021-08-06 21:59:27,254 [   4483]   INFO - indexing.UnindexedFilesUpdater - Performing delayed pushing properties tasks for myproject took 1ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-06 21:59:27,292 [   4521]   INFO - indexing.UnindexedFilesUpdater - Scanning of myproject uses 11 scanning threads 
+2021-08-06 21:59:27,374 [   4603]   INFO - ramework.util.RdCoroutineScope - RdCoroutineHost overridden 
+2021-08-06 21:59:27,924 [   5153]   INFO - ProjectRootPostStartUpActivity - /home/hxz/go/src/myproject/.idea case-sensitivity: expected=true actual=true 
+2021-08-06 21:59:27,929 [   5158]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2021-08-06 21:59:27,934 [   5163]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 1599ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-06 21:59:27,940 [   5169]   INFO - indexing.UnindexedFilesUpdater - Scanning completed for myproject. Number of scanned files: 249; Number of files for indexing: 0 took 685ms; general responsiveness: ok; EDT responsiveness: ok 
+2021-08-06 21:59:27,944 [   5173]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 3548 ms 
+2021-08-06 21:59:27,946 [   5175]   INFO - indexing.UnindexedFilesUpdater - Finished for myproject. No files to index with loading content. 
+2021-08-06 21:59:27,946 [   5175]   INFO - ij.psi.search.LogFileTypeIndex - File type index snapshot dropped 
+2021-08-06 21:59:27,948 [   5177]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$PruneTask@f9ca1c 
+2021-08-06 21:59:27,949 [   5178]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRepositoryFileCacheImpl$ManageLruProjectFilesTask@7bb3d593 
+2021-08-06 21:59:27,955 [   5184]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-06 21:59:27,959 [   5188]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=myproject, containerState=COMPONENT_CREATED, componentStore=/home/hxz/go/src/myproject) 
+2021-08-06 21:59:28,129 [   5358]   INFO - CompilerWorkspaceConfiguration - Available processors: 12 
+2021-08-06 21:59:28,252 [   5481]   INFO - .services.SpaceKtsFileDetector - SpaceKtsFileDetector 
+2021-08-06 21:59:28,306 [   5535]   INFO - roject.DumbServiceGuiTaskQueue - Running dumb mode task: com.android.tools.idea.res.ResourceFolderRegistry$PopulateCachesTask@1671de99 
+2021-08-06 21:59:28,309 [   5538]   INFO - penapi.project.DumbServiceImpl - updateFinished 
+2021-08-06 21:59:28,310 [   5539]   INFO - tFileBasedIndexStartupActivity - Has changed files: false; project=Project(name=myproject, containerState=COMPONENT_CREATED, componentStore=/home/hxz/go/src/myproject) 
+2021-08-06 21:59:33,991 [  11220]   INFO - m.codeWithMe.CodeWithMeCleanup - running activity to cleanup old thin clients... Root path is '/home/hxz/.cache/JetBrains' 
+2021-08-06 21:59:33,991 [  11220]   INFO - m.codeWithMe.CodeWithMeCleanup - found 0 Code With Me client system folders to check 
+2021-08-06 21:59:33,992 [  11221]   INFO - m.codeWithMe.CodeWithMeCleanup - found 0 Code With Me client config folders to check 
+2021-08-06 21:59:33,993 [  11222]   INFO - m.codeWithMe.CodeWithMeCleanup - keep only [] major versions 
+2021-08-06 22:02:24,106 [ 181335]   INFO - j.compiler.server.BuildManager - Clearing project build data because the project does not exist or was not opened for more than 30 days: /home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/compile-server/myproject_73d68d17 
+2021-08-06 22:14:30,674 [ 907903]   INFO - ectsystem.ProjectSystemService - DefaultProjectSystem project system has been detected 
+2021-08-06 22:39:01,042 [2378271]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2021-08-06 22:39:01,086 [2378315]   INFO - tellij.psi.stubs.StubIndexImpl - StubIndexExtension-s were unloaded 
+2021-08-06 22:39:01,120 [2378349]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2021-08-06 22:39:01,124 [2378353]   INFO - stubs.SerializationManagerImpl - Start shutting down /home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/index/rep.names 
+2021-08-06 22:39:01,124 [2378353]   INFO - stubs.SerializationManagerImpl - Finished shutting down /home/hxz/java/nocalhost-intellij-plugin/build/idea-sandbox/system/index/rep.names 
+2021-08-06 22:39:01,124 [2378353]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2021-08-06 22:39:01,126 [2378355]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2021-08-06 22:39:01,126 [2378355]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2021-08-06 22:39:01,127 [2378356]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

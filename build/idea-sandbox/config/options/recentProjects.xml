@@ -1,0 +1,42 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/py/starship-ops-backend">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1sNtLTLjXE5WujhM1efrJZ8J5nH">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-212.4746.92" />
+              <option name="buildTimestamp" value="1627369699136" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1628164322672" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/go/src/starship">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1uw54geMwGT5ONPbYoiBPQ22x96">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-212.4746.92" />
+              <option name="buildTimestamp" value="1627369699136" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1628164322672" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/go/src/myproject">
+          <value>
+            <RecentProjectMetaInfo frameTitle="myproject" opened="true" projectWorkspaceId="1ti5Cg3IF76nff4x8UN1ewTD9Fx">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-212.4746.92" />
+              <option name="buildTimestamp" value="1627369697438" />
+              <frame x="72" y="27" width="1848" height="1053" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1628255386443" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

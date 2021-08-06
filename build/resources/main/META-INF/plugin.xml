@@ -1,0 +1,191 @@
+<idea-plugin>
+  <id>dev.starship.starship-intellij-plugin</id>
+  <version>1.0.0-212</version>
+  <change-notes>
+            &lt;h2&gt;Version 0.4.19&lt;/h2&gt;
+            
+            &lt;h3&gt;New Features&lt;/h3&gt;
+
+            &lt;ul&gt;
+                &lt;li&gt;
+                    Supports JetBrains IDEs 2021.2
+                &lt;/li&gt;
+                &lt;li&gt;
+                    Supports namespace PVC clear
+                &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h3&gt;Refactor &amp; Improvement&lt;/h3&gt;
+
+            &lt;ul&gt;
+                &lt;li&gt;
+                    Host key checking skip for cloning git repository over SSH
+                &lt;/li&gt;
+                &lt;li&gt;
+                    A more friendly notification for nhctl command messages
+                &lt;/li&gt;
+                &lt;li&gt;
+                    PHP remote debugging experience
+                &lt;/li&gt;
+                &lt;li&gt;
+                    Add cluster status display
+                &lt;/li&gt;
+                &lt;li&gt;
+                    Add guide message
+                &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h3&gt;Bug Fixes&lt;/h3&gt;
+
+            &lt;ul&gt;
+                &lt;li&gt;
+                    NPEs
+                &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h2&gt;Version 0.4.15&lt;/h2&gt;
+
+            &lt;h3&gt;New Features&lt;/h3&gt;
+
+            &lt;ul&gt;
+                &lt;li&gt;
+                    Supports PHP remote debugging
+                &lt;/li&gt;
+                &lt;li&gt;
+                    Supports application upgrade
+                &lt;/li&gt;
+                &lt;li&gt;
+                    Skip SSH host key checking on git clone
+                &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h3&gt;Refactor &amp; Improvement&lt;/h3&gt;
+
+            &lt;ul&gt;
+                &lt;li&gt;
+                    Move edit manifest action to context menu
+                &lt;/li&gt;
+                &lt;li&gt;
+                    A more friendly notification for "Server version outdate"
+                &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h3&gt;Bug Fixes&lt;/h3&gt;
+
+            &lt;ul&gt;
+                &lt;li&gt;
+                    NPEs
+                &lt;/li&gt;
+                &lt;li&gt;
+                    Fixed "get config by nhctl" issue in run and debug mode
+                &lt;/li&gt;
+            &lt;/ul&gt;
+
+
+            &lt;h2&gt;Version 0.4.14&lt;/h2&gt;
+            
+            &lt;h3&gt;New Features&lt;/h3&gt;
+            
+            &lt;ul&gt;
+                &lt;li&gt;
+                    Supports automatically refresh starship Server side token
+                &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h3&gt;Bug Fixes&lt;/h3&gt;
+
+            &lt;ul&gt;
+                &lt;li&gt;
+                    Fixed the "unable to save configuration" issue
+                &lt;/li&gt;
+            &lt;/ul&gt;
+
+
+            &lt;h2&gt;Previous Changelogs&lt;/h2&gt;
+            
+            &lt;p&gt;
+                &lt;a href="https://github.com/starship/starship/tree/main/CHANGELOG"&gt;https://github.com/starship/starship/tree/main/CHANGELOG&lt;/a&gt;
+            &lt;/p&gt;
+          </change-notes>
+  <description>&lt;html&gt;
+    &lt;p&gt;
+        starship for JetBrains brings the power and convenience of IDEs to cloud-native Kubernetes application development. It helps you to increase agility and speed to develop cloud-native applications on Kubernetes.
+    &lt;/p&gt;
+
+    &lt;h3&gt;
+        Key Features
+    &lt;/h3&gt;
+
+    &lt;p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                &lt;b&gt;Start cloud-native application development in one click&lt;/b&gt; - starship helps you spend less time on environment configuration, you can easily connect to any Kubernetes environment in one click, and focus on developing your app. 
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;b&gt;Fast deployment&lt;/b&gt; - You can deploy any Manifest Yaml, Helm and Kustomize applications by just few clicks.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;b&gt;See code change under a second&lt;/b&gt; - Automatically synchronize the code to container every time you make a change. starship eliminate the submit, building and pushing cycles,  significantly speed up the feedback loop of development, so you see change in under a second.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;b&gt;Easy debugging in remote Kubernetes&lt;/b&gt; - starship provides the same debugging experience you've used in the IDE even when debugging in remote Kubernetes cluster.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/p&gt;
+
+    &lt;h3&gt;
+        Resources
+    &lt;/h3&gt;
+    &lt;p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                &lt;a href="https://starship.dev/eng/getting-started/"&gt;&lt;b&gt;Quick start&lt;/b&gt;&lt;/a&gt; - Follow our quick start to enjoy the faster and easier cloud-native application.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href="https://starship.dev/"&gt;&lt;b&gt;Documentation&lt;/b&gt;&lt;/a&gt; - We have a lot of features to explore. Head over our documentation to discover more.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href="https://starship.slack.com/"&gt;&lt;b&gt;Talk to us&lt;/b&gt;&lt;/a&gt; - Connect to the starship development team by joining our Slack channel. 
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href="https://github.com/starship/starship/issues"&gt;&lt;b&gt;File a issue&lt;/b&gt;&lt;/a&gt; - If you discover any issue, file a bug and will fix it as soon as possible.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/p&gt;
+&lt;/html&gt;</description>
+  <idea-version since-build="212.4746" until-build="212.*"/>
+  <name>Nocalhost</name>
+  <vendor url="https://nocalhost.dev/">Nocalhost</vendor>
+  <depends>com.intellij.modules.platform</depends>
+  <depends>org.jetbrains.plugins.terminal</depends>
+  <depends optional="true" config-file="java-only.xml">com.intellij.java</depends>
+  <depends optional="true" config-file="php-only.xml">com.jetbrains.php</depends>
+  <depends optional="true" config-file="go-only.xml">org.jetbrains.plugins.go</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationService serviceImplementation="dev.nocalhost.plugin.intellij.commands.GitCommand"/>
+    <applicationService serviceImplementation="dev.nocalhost.plugin.intellij.commands.NhctlCommand"/>
+    <applicationService serviceImplementation="dev.nocalhost.plugin.intellij.api.NocalhostApi"/>
+    <applicationService serviceImplementation="dev.nocalhost.plugin.intellij.settings.NocalhostSettings"/>
+    <projectService serviceImplementation="dev.nocalhost.plugin.intellij.commands.OutputCapturedGitCommand"/>
+    <projectService serviceImplementation="dev.nocalhost.plugin.intellij.commands.OutputCapturedNhctlCommand"/>
+    <projectService serviceImplementation="dev.nocalhost.plugin.intellij.exception.NocalhostNotifier"/>
+    <projectService serviceImplementation="dev.nocalhost.plugin.intellij.settings.NocalhostProjectSettings"/>
+    <toolWindow id="Starship" anchor="right" icon="NocalhostIcons.Logo" factoryClass="dev.nocalhost.plugin.intellij.ui.NocalhostWindowFactory"/>
+    <toolWindow id="Starship Console" anchor="bottom" icon="NocalhostIcons.Logo" factoryClass="dev.nocalhost.plugin.intellij.ui.NocalhostConsoleWindowFactory" canCloseContents="true"/>
+    <notificationGroup id="Nocalhost.Notification" displayType="BALLOON" toolWindowId="Nocalhost"/>
+    <notificationGroup id="Nocalhost.Notification.Error" displayType="STICKY_BALLOON" toolWindowId="Nocalhost"/>
+    <postStartupActivity implementation="dev.nocalhost.plugin.intellij.startup.NocalhostStartupActivity"/>
+    <statusBarWidgetFactory implementation="dev.nocalhost.plugin.intellij.ui.SyncStatusWidgetFactory" order="first"/>
+    <errorHandler implementation="dev.nocalhost.plugin.intellij.exception.report.NocalhostErrorReportSubmitter"/>
+    <programRunner implementation="dev.nocalhost.plugin.intellij.configuration.NocalhostRunner" order="first"/>
+    <applicationInitializedListener implementation="dev.nocalhost.plugin.intellij.startup.DevSpaceTreeAutoRefreshListener"/>
+    <applicationInitializedListener implementation="dev.nocalhost.plugin.intellij.startup.NocalhostTokenRefreshListener"/>
+  </extensions>
+  <actions>
+    <group id="NocalhostEditActions">
+      <action id="NocalhostEditCut" class="com.intellij.openapi.editor.actions.CutAction" use-shortcut-of="$Cut" icon="AllIcons.Actions.MenuCut" text="Cut"/>
+      <action id="NocalhostEditCopy" class="com.intellij.openapi.editor.actions.CopyAction" use-shortcut-of="$Copy" icon="AllIcons.Actions.Copy" text="Copy"/>
+      <action id="NocalhostEditPaste" class="com.intellij.openapi.editor.actions.PasteAction" use-shortcut-of="$Paste" icon="AllIcons.Actions.MenuPaste" text="Paste"/>
+    </group>
+  </actions>
+</idea-plugin>

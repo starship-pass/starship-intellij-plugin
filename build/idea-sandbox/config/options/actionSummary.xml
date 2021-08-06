@@ -1,0 +1,13 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="EditorPaste">
+      <i c="1" l="1628164316521" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="2" l="1628255371525" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1628255413526" />
+    </e>
+  </component>
+</application>

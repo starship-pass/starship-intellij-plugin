@@ -1,0 +1,2 @@
+The Gopher icons are based on the Go mascot designed by Renée French (http://reneefrench.blogspot.com/) 
+and copyrighted under the Creative Commons Attribution 3.0 license (http://creativecommons.org/licenses/by/3.0/us/).

@@ -1,0 +1,49 @@
+<application>
+  <component name="NocalhostSettings">
+    <option name="standaloneClustersJson" value="[{&quot;rawKubeConfig&quot;:&quot;apiVersion: v1\nclusters:\n  - cluster:\n        certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUN5RENDQWJDZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJd01URXdOREE1TlRnMU5Gb1hEVE13TVRFd01qQTVOVGcxTkZvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTEwvCjhBOUl6RVZjYi9QZkVSeWdVRFdud2F3RjBuK1IyeEs3UkZmNDl5VTJmSFh3TnlqQXZRKzQ4K1YrR2hqbzhKZzMKY094UVhPY2Q4R3A1SWpNclFzN21ZZE85VkF6Nm1WRmY3YVBDRmRITjhPbTRrSm1ibW04RHhsUS9QMVhFRzZ4ZQptNURxcGtsWWJyTHZ2eEI5cVpCeDUyS3lTdHlpUGJSd0thelVhdTArZXlNWTJYcGhOeU56cmxZbzN3dHV5VEVxCjBEYmI4YmZMR2JGcDlhRUc5NzFlODdNTytyQlowK2IvWUg2Ni9xQ0kxbjIzV09OMXRqYkRXbWtLQlpMZjhMSnQKalVTM1BwR3pvUWowSnd0VzM2TlNKcTYxWXRrNEN6NThaN1BPbUVxbFRQUlMzU2J3bXhKazZNREplbmprOWlMbQpsekNJWGpwTE1lM3BuVnhRTVRVQ0F3RUFBYU1qTUNFd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0RRWUpLb1pJaHZjTkFRRUxCUUFEZ2dFQkFEWFVzVkd6cHc4MGdzUjVUenBPdTE4Ym9jTlYKQzJNZkFHSEFvenU1YkRVNGtPZHNJcHhROW5XU1lBZmFNOVpUdHM5VEIwcXRNT3htZzh3TWVyMGFJZE1TdVI3dgpnVW41ejJqbUduUCtkWEY3NUVCR0hlTm9lYXBFa2s5QVQxZlZvbTNoWk5jN0QrRm4zaC9SN3hBWWVkbWNIaE9KCk5TSE9MM09vWDNwdExNYVZuLzF1OEVIOGhzelpMMW1iSGE4T0hZRStESE5kNjFLSE9laTR3NWJockhvN09DUW4KV2lCKzZqeHgzMGUwc2haS2VWRlRqdjlKTDdrTk5yTEd2Zmx1WmFOT1YvRjk3LzAxSG5FNG1Ed0RuWXh4emRYMgorRnVDVGt2TExrVGUxNVZsSEVWaGVCVzdvekJNSTNGc3BIbXpKOHhwYnJ2R2ZuaXRQWmRQVTB2cjdaYz0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo\u003d\n        server: https://10.5.1.111:6443\n    name: company-local\ncontexts:\n  - context:\n        cluster: company-local\n        namespace: compoment-test\n        user: company-local-admin\n    name: company-local-admin@company-local\ncurrent-context: company-local-admin@company-local\nkind: Config\nusers:\n  - name: company-local-admin\n    user:\n        client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM4akNDQWRxZ0F3SUJBZ0lJVTQ4WmRFZ3dVTWd3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TURFeE1EUXdPVFU0TlRSYUZ3MHlNVEV4TURRd09UVTROVFphTURReApGekFWQmdOVkJBb1REbk41YzNSbGJUcHRZWE4wWlhKek1Sa3dGd1lEVlFRREV4QnJkV0psY201bGRHVnpMV0ZrCmJXbHVNSUlCSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ0tDQVFFQXdKTk52TDRoTGpJYUhESGEKaWtuOUI0eFd0SXdpVGZEeU5GQ2ExWTdIWVhrU1ptUHRkd1hCellXOGxuOFQ2cyt2MnFWZUp0WHBlRWR6Vys0cQp0dWxnZEdqTms4NkhVVnQxbE1WUmdOUWhqR2g0YW1ncEJTVHNtZUxoK1l3ZHpwQXFIbWV1ZEtxRVI4emdwNjNuCmVpSWVGV2J2ajNxaUJaNWduZnVlY3hHQTFEejkrY2VHbXJsMCtoNEhWZFNmSnBDWFlyV0ZaYTQrZ2x1SG84Qm4KRlljRHhTOTRjSHZvZ0txL2dGclcyd0IyaWcwZ05EbTd4K250Z0FnckdSU01hL2tLN1RzZUFEUjE5dEJ1bzl2VApvejBpaGczRWxsQllwL2sxOG9rVUd0N0g0R2hYbTBiNGFMQndqaEJzVy9YdnlZWStGR1dVQWxKYWNLRUp1Q0ZFCldRMjBiUUlEQVFBQm95Y3dKVEFPQmdOVkhROEJBZjhFQkFNQ0JhQXdFd1lEVlIwbEJBd3dDZ1lJS3dZQkJRVUgKQXdJd0RRWUpLb1pJaHZjTkFRRUxCUUFEZ2dFQkFGMmE0TjNlREdsdW1jVkRGZVpkU3kvd2xxVlRqSmhwY2RyMQp3U2M1eE1yeEFuVXdnOXQwcGIvNzJTdkJsQms2Vm9HMVdRVjd6akI4Q1VRcTB5T2R6Qktqcm9MMitpdDBXbUEyCmJ4M2tlQ2ZxMTExMHR4VnhMMHBaSG9nbXkzOVROMzl3WFowS3NlSHZIZTY2dHBnL1owMEd4TnpyeFZtVXRkcW8KL1NtQ1h0TElEbjh1VVdjQXdLUFJsRjJrOEdYUlhaaU03QTJwdEVPUUlweS9sS3lST3o1SnNIaEhhTjJJY3UvRgp2dTVNUllXVkpLNkNaTUZ4STR4elp4bVFDME03STVUZkVjM081eGRxdWpQYlBOWjl3c2hJUmVXMVNhYldSRkpPCmFGUkUrcm9Zd2cremY5YksrSmg3RVFIRFlEQ0E2cW56OVFaSkk3NDlPb1NCeTBuQ0puYz0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo\u003d\n        client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFcEFJQkFBS0NBUUVBd0pOTnZMNGhMaklhSERIYWlrbjlCNHhXdEl3aVRmRHlORkNhMVk3SFlYa1NabVB0CmR3WEJ6WVc4bG44VDZzK3YycVZlSnRYcGVFZHpXKzRxdHVsZ2RHak5rODZIVVZ0MWxNVlJnTlFoakdoNGFtZ3AKQlNUc21lTGgrWXdkenBBcUhtZXVkS3FFUjh6Z3A2M25laUllRldidmozcWlCWjVnbmZ1ZWN4R0ExRHo5K2NlRwptcmwwK2g0SFZkU2ZKcENYWXJXRlphNCtnbHVIbzhCbkZZY0R4Uzk0Y0h2b2dLcS9nRnJXMndCMmlnMGdORG03CngrbnRnQWdyR1JTTWEva0s3VHNlQURSMTl0QnVvOXZUb3owaWhnM0VsbEJZcC9rMThva1VHdDdINEdoWG0wYjQKYUxCd2poQnNXL1h2eVlZK0ZHV1VBbEphY0tFSnVDRkVXUTIwYlFJREFRQUJBb0lCQVFDWFVHY3BvZDlpYy8ydQpIOElQSFJuVFg0TVZkSExUK1RubXYxc1o2SWxqWG9XRnJJai9GNmZ6UEYwMWgzNTM1MTdQRjFjR2Z0aG5LUVZNCnU3UVdhd1BlRkNkTU4yQitIYllqQW5RTEhTT0xOdDgvQkw4T2lyZmFKcnJXb1RFZWlJcC92NG9GbzZJeTVKbTEKUjJEMXgyOEo5QXJTRzFMSnhXczNWMmxtRXQrK1l4cjgxZlR6cHFrYmZvRzQ5eFAxWUlqcy82SFNrOGtKLzBsNwpCK0NJcWgrY2FuL29LczhXUmZnSFNlKzFGQ3ZEZGkrS0piZ0lraGh1UDFCdGtNU3hpc3pobFdEOGROK095aEgwCmpGSVlqYzNLVDdVUzlPaFdYUkY4UW96TElEM01wT2JYeVg1SHpJdXZIaGUrYjhIbmdJV1pnV04wZnZ6ZGlhQi8KbDlqNk43d2xBb0dCQVBtbHU4THVrRUJOYTFoZUpmaWlZWURhUWxHUWR2Zjh6WmlxLyt2RkIwa2lmcUJkUlhBMApiY3VBNy83WVBhRzFxY29nZzg5N2NFa24ybEk2aURIbzllYTcvdW93Y1R5MzNlQzhuZGNJbHh1dSt2R2Uwd0lKCkIyd25jT2dlZzA1d24rUjU5anhVRkx1a1lCMVlpald5TXJIMG42cTl2aUthd2kvRDU4ZXgzbXZiQW9HQkFNVjUKeWV5ODVEbHppTVliV1FUcmprMkxHMTZUVjZrcUdFSlVibzVQOGFCZE92OFdRYlF6eGhZanhLR29xN1hhM2ErdwpZdm1kbFF0STNSV0h5WVBPcWZhTVkzK0ZhKys4Y2oxcCtQZFlVNEFnTUpTcGxCN2hkRW1BT2NJT3hxbUNudmRmCjd0TFFKTUV3VlRHK2pob212dEdienZsai9GM0JHNUQrUjZjSFVUZFhBb0dBZFplQmgrS0RoQ1p6aDk1aEdHcTAKYnROZ0piZGNzcGNiNk91elBNVkVGMGp1U0c5bXcrR09UaXRmNExUTzR4c0U3VGEvbjczUE9FWlRhaVF6L3Y1eQp4Y3FMMnBnUzNyemxBSFVZREMvNXJZcVFuYnRvUFM4dmxkeEdMTEFpdlpJRFhzV3NIT0ttR1hUbDZTekpmVjJBCno1NGdqM1pzMXpQNmdERlJQaGtrWWIwQ2dZRUFoOFdEZXB3b2dnT1lYelRBVUt5djYwcWdKN2RBUnhPbEdEMjYKd1dmZnBqVlRjYnpZc2RBQytvZmZFcExJZEVFbHVEeWE0Q3BqSmg0VHUxRGYwUnJQS3E4OVhaamJMRG94aFY0TwpDZW1WaDNzYVM2d0lKZTgycDY1Y2g3cm5CZmJEMnlyL0pieHIrTk9GVDYxSFFGMnhScVpNZUpVeEZ6akUvanlHCkFTWDd4Z01DZ1lCSTY1cnZ0blZ1Vmp0b0pHRk9LcHJkd2M5UmgvWTVXOWY1ZzNLbVU4T1J4VkgwTlY3Rk41OFUKSlMrVDh3WUVJQ1lIWlVBaUlRdlhIUEJnWW9TeEdYM1V1L1pXUUFxNkUvM1d6WHk2T0ZPcm92SThuV1MyU3dtbgpIMFViN1ZBd0pibFFCcjF0eHIwa0ZEMWJ1TUZtd0JlVEVVQXpGZ3F0bjhnUzMzUFNWWkIybEE9PQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQo\u003d\n\n&quot;}]" />
+  </component>
+  <component name="ProjectPluginTrackerManager">
+    <trackers>
+      <map>
+        <entry key="1sNtLTLjXE5WujhM1efrJZ8J5nH">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1ti5Cg3IF76nff4x8UN1ewTD9Fx">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1uw54geMwGT5ONPbYoiBPQ22x96">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="eclipse.projects.detected" value="" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/go/src/myproject&#10;/home/hxz/go/src/starship&#10;/home/hxz/py/starship-ops-backend" />
+    <property name="file.gist.reindex.count" value="4" />
+    <property name="fileTypeChangedCounter" value="4" />
+    <property name="fileTypeDetectors" value="com.android.tools.idea.fileTypes.profiler.MemoryCaptureFileType$Detector:com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
+    <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ide.updates.previous.build.number" value="IC-212.4746.92" />
+    <property name="ide.updates.whats.new.shown.for" value="212" />
+    <property name="input.method.disabler.muted" value="true" />
+    <property name="installed.kotlin.plugin.version" value="212-1.5.10-release-IJ4746.92" />
+    <property name="last_opened_file_path" value="$USER_HOME$/go/src/myproject" />
+    <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions&#10;#com.jetbrains.rdserver.permissions" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1628164201053" />
+    <property name="registry.to.advanced.settings.migration.build" value="IC-212.4746.92" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+  </component>
+  <component name="ToolbarSettingsService">
+    <option name="NEW_TOOLBAR_SETTINGS" value="OLD_NAVBAR" />
+  </component>
+</application>
